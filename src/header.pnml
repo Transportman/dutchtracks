@@ -1,0 +1,21 @@
+// define the newgrf
+grf {
+	grfid:	"\FB\FB\07\01";
+	name:	string(STR_GRF_NAME);
+	desc:	string(STR_GRF_DESCRIPTION);
+	version:		REPO_REVISION;
+	min_compatible_version:	0;
+}
+
+//check for OpenTTD and version
+if (ttd_platform != PLATFORM_OPENTTD) {
+    //requires OpenTTD
+    error(FATAL, USED_WITH, "OpenTTD");
+}
+else {
+    //check for OpenTTD version
+    if (openttd_version < version_openttd(1, 2, 0, 23971)) {
+        //requires OpenTTD version
+        error(FATAL, REQUIRES_OPENTTD, "1.2.0-RC1 / r23971");
+    }
+}

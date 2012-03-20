@@ -1,0 +1,209 @@
+{{GRF_TITLE}}
+===================================
+<one-line description of what the grf does>
+
+----------
+0 Contents
+----------
+
+1   About
+2   General information
+    2.1  Requirements
+    2.2  Installation
+    2.3  Parameter settings
+    2.4  Usage
+3   Known issues
+4   Background information
+5   Frequently Asked Questions
+6   Credits
+7   Contact information
+    7.1  Bug reports
+    7.2  Other problems
+    7.3  General enquiries
+8   License
+9   Obtaining the source
+
+
+
+-------
+1 About
+-------
+
+<one or two paragraphs what this grf is about, what it contains and what it does>
+
+{{GRF_TITLE}}
+MD5Hash:  {{GRF_MD5}}
+Version:  {{REPO_REVISION}}
+GRF ID:   {{GRF_ID}}
+
+
+
+---------------------
+2 General information
+---------------------
+
+2.1 Requirements
+----------------
+- OpenTTD <1.2.0> or nightly r<22723>
+- TTDPatch nightly r<2200>
+
+
+2.2 Installation
+----------------
+OpenTTD:
+  see http://wiki.openttd.org/NewGRF
+  This NewGRF is available from the ingame Online Content
+
+TTDPatch:
+  see http://www.tt-wiki.net/wiki/NewGraphicsInstallation
+
+
+2.3 Parameter settings
+----------------------
+<some notes on what settings are available>
+
+Set the parameters before starting a new game. Once started they 
+cannot be changed any longer.
+
+Useful details if you need to set the parameters manually in the
+configuration file:
+
+  1st parameter: <description>
+  0: <what this value does>
+  1: <what this value does>
+  2: <what this value does>
+  
+  2nd parameter: <description>
+  0: <what this value does>
+  1: <what this value does>
+
+
+2.4 Usage
+---------
+<some notes on how to use this NewGRF>
+
+
+
+--------------
+3 Known issues
+--------------
+
+<list of known issues in this release>
+
+
+------------------------
+4 Background information
+------------------------
+
+<in this section you can give some background information on the
+contents of this NewGRF>
+
+
+
+----------------------------
+5 Frequently Asked Questions
+----------------------------
+
+Q: Why is it that...?
+A: No reason.
+
+
+
+---------
+6 Credits
+---------
+
+Graphics:
+- <artist 1>
+- <artist 2>
+- <artist 3>
+
+Code:
+- <coder 1>
+- <coder 2>
+
+Translations:
+- <translator 1>
+- <translator 2>
+
+Makefile system:
+- <usually planetmaker>
+
+
+
+---------------------
+7 Contact information
+---------------------
+
+7.1 Bug reports
+---------------
+Please report any bugs you find at
+  bug tracker: http://dev.openttdcoop.org/projects/<projectname>/issues
+  or forum topic: http://www.tt-forums.net/viewtopic.php?t=<00000>
+
+Always included a detailed description of the bug, preferrably with
+screenshot and savegame. Also state the exact game version you're using, 
+as well as the version of this NewGRF.
+
+If you have a savegame that includes NewGRFs not available on OpenTTD's 
+Online Content, then please try to reproduce the bug in a new game 
+which has all NewGRFs easily accessible.
+
+If you're using a patched version of the game, please try to reproduce
+the bug on an official game build. If you can't reproduce the bug, then
+don't report it here but in the forum topic of the patch(pack) instead.
+
+
+7.2 Other problems
+------------------
+If you have any problems using this NewGRF that are not covered in the 
+Frequently Asked Questions above, then you can ask your questions in the
+forum topic: http://www.tt-forums.net/viewtopic.php?t=<00000>
+
+
+7.3 General enquiries
+---------------------
+
+If you have any queries that cannot be asked in the forum topic, then
+contact <username> via Private Message at www.tt-forums.net or send
+an email to <name> at <email address>.
+
+
+
+---------
+8 License
+---------
+
+<name of the NewGRF> - <short description>
+Copyright (C) <year> <list of authors or team name>
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+
+
+----------------------
+9 Obtaining the source
+----------------------
+
+The source code can be obtained from the #openttdcoop DevZone
+via source browser:
+    http://dev.openttdcoop.org/projects/<projectname>/repository
+or via mercurial checkout:
+    hg clone http://hg.openttdcoop.org/<projectname>
+or via a source bundle download (releases only):
+    http://bundles.openttdcoop.org/<projectname>/
+
+How to build from source and the requirements for that are included 
+with the source in the file /docs/building_from_source.txt.

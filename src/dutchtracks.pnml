@@ -1,0 +1,4 @@
+//define grf
+#include "src/header.pnml"
+
+//include all other files here, like above

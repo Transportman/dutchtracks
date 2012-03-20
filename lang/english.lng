@@ -1,0 +1,5 @@
+﻿##grflangid 0x01
+
+#Main grf title and description
+STR_GRF_NAME			:{TITLE}
+STR_GRF_DESCRIPTION		:Dutch Tracks for OpenTTD {}(c)Dutch Trackset Team {}License: GPLv2 or higher. {}See readme for details.

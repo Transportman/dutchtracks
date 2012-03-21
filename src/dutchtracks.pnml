@@ -2,3 +2,8 @@
 #include "src/header.pnml"
 
 //include all other files here, like above
+//Graphics heer
+
+
+//Tracktypes here
+#include "src/HSL.pnml" //HSL track inclusion

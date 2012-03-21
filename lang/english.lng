@@ -3,3 +3,11 @@
 #Main grf title and description
 STR_GRF_NAME			:{TITLE}
 STR_GRF_DESCRIPTION		:Dutch Tracks for OpenTTD {}(c)Dutch Trackset Team {}License: GPLv2 or higher. {}See readme for details.
+
+# Rail descriptions
+STR_NAME_HSL	:HSL
+STR_TOOL_HSL	:HSL
+STR_MENU_HSL	:HSL
+STR_BUIL_HSL	:HSL
+STR_REPL_HSL	:HSL
+STR_NENG_HSL	:High Speed

@@ -5,6 +5,15 @@ STR_GRF_NAME			:{TITLE}
 STR_GRF_DESCRIPTION		:Dutch Tracks for OpenTTD {}(c)Dutch Trackset Team {}License: GPLv2 or higher. {}See readme for details.
 
 # Rail descriptions
+# Unelectrified Rail
+STR_NAME_RAIL	:Rail
+STR_TOOL_RAIL	:Rail
+STR_MENU_RAIL	:Rail
+STR_BUIL_RAIL	:Rail
+STR_REPL_RAIL	:Rail
+STR_NENG_RAIL	:Rail
+
+# HSL
 STR_NAME_HSL	:HSL
 STR_TOOL_HSL	:HSL
 STR_MENU_HSL	:HSL

@@ -4,7 +4,13 @@
 STR_GRF_NAME			:{TITLE}
 STR_GRF_DESCRIPTION		:Dutch Tracks for OpenTTD {}(c)Dutch Trackset Team {}License: GPLv2 or higher. {}See readme for details.
 
+# Parameter descriptions
+# Rail speed
+STR_PARAM_NAME_SPEED	:Speed limits
+STR_PARAM_DESC_SPEED	:Use this parameter to turn off speed limits.
+
 # Rail descriptions
+
 # Unelectrified Rail
 STR_NAME_RAIL	:Rail
 STR_TOOL_RAIL	:Rail

@@ -5,6 +5,17 @@ grf {
 	desc:	string(STR_GRF_DESCRIPTION);
 	version:		REPO_REVISION;
 	min_compatible_version:	0;
+	
+	//paremeters go below here
+	param 1 {
+		param_speed_limit {
+				type:	bool;
+				name:	string(STR_PARAM_NAME_SPEED);
+				desc:	string(STR_PARAM_DESC_SPEED);
+				def_value: 1;
+				bit:	1;
+				}
+		}
 }
 
 //check for OpenTTD and version

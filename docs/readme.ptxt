@@ -1,6 +1,6 @@
 {{GRF_TITLE}}
 ===================================
-<one-line description of what the grf does>
+This NewGRF adds Dutch tracks to OpenTTD.
 
 ----------
 0 Contents
@@ -21,7 +21,9 @@
     7.2  Other problems
     7.3  General enquiries
 8   License
-9   Obtaining the source
+9   Source code
+	9.1  Obtaining the source
+	9.2  Building from source
 
 
 
@@ -44,42 +46,32 @@ GRF ID:   {{GRF_ID}}
 
 2.1 Requirements
 ----------------
-- OpenTTD <1.2.0> or nightly r<22723>
-- TTDPatch nightly r<2200>
 
+- OpenTTD <1.2.0> or nightly r<22723>
+- TTDPatch is not supported
 
 2.2 Installation
 ----------------
+
 OpenTTD:
   see http://wiki.openttd.org/NewGRF
-  This NewGRF is available from the ingame Online Content
-
-TTDPatch:
-  see http://www.tt-wiki.net/wiki/NewGraphicsInstallation
+  This NewGRF is not yet available from the ingame Online Content
 
 
 2.3 Parameter settings
 ----------------------
-<some notes on what settings are available>
 
 Set the parameters before starting a new game. Once started they 
 cannot be changed any longer.
 
-Useful details if you need to set the parameters manually in the
-configuration file:
-
-  1st parameter: <description>
-  0: <what this value does>
-  1: <what this value does>
-  2: <what this value does>
-  
-  2nd parameter: <description>
-  0: <what this value does>
-  1: <what this value does>
-
+Currently the following parameters are available:
+	Speed limits: Can be set on or off. Default value is on.
+					This parameter allows you to disable
+					the track speed limits.
 
 2.4 Usage
 ---------
+
 <some notes on how to use this NewGRF>
 
 
@@ -88,7 +80,8 @@ configuration file:
 3 Known issues
 --------------
 
-<list of known issues in this release>
+Currently this NewGRF is under development and far from finished.
+Therefore no Known issues are posted at this moment.
 
 
 ------------------------
@@ -119,7 +112,7 @@ Graphics:
 - <artist 3>
 
 Code:
-- <coder 1>
+- Transportman
 - <coder 2>
 
 Translations:
@@ -137,13 +130,17 @@ Makefile system:
 
 7.1 Bug reports
 ---------------
+
 Please report any bugs you find at
-  bug tracker: http://dev.openttdcoop.org/projects/<projectname>/issues
-  or forum topic: http://www.tt-forums.net/viewtopic.php?t=<00000>
+  bug tracker: http://dev.openttdcoop.org/projects/dutchtracks/issues
+  or forum topic: http://www.tt-forums.net/viewtopic.php?f=26&t=59201
 
 Always included a detailed description of the bug, preferrably with
-screenshot and savegame. Also state the exact game version you're using, 
-as well as the version of this NewGRF.
+screenshot, savegame and steps to reproduce. Also state the exact 
+game version you're using, as well as the version of this NewGRF.
+
+Please try to reproduce in a minimal configuration, with only this
+NewGRF loaded in a recent version of OpenTTD.
 
 If you have a savegame that includes NewGRFs not available on OpenTTD's 
 Online Content, then please try to reproduce the bug in a new game 
@@ -156,17 +153,17 @@ don't report it here but in the forum topic of the patch(pack) instead.
 
 7.2 Other problems
 ------------------
+
 If you have any problems using this NewGRF that are not covered in the 
 Frequently Asked Questions above, then you can ask your questions in the
-forum topic: http://www.tt-forums.net/viewtopic.php?t=<00000>
+forum topic: http://www.tt-forums.net/viewtopic.php?f=26&t=59201
 
 
 7.3 General enquiries
 ---------------------
 
-If you have any queries that cannot be asked in the forum topic, then
-contact <username> via Private Message at www.tt-forums.net or send
-an email to <name> at <email address>.
+If you have any queries that cannot be asked in the forum topic, please
+check the forum topic for the current developers that you can contact.
 
 
 
@@ -174,8 +171,8 @@ an email to <name> at <email address>.
 8 License
 ---------
 
-<name of the NewGRF> - <short description>
-Copyright (C) <year> <list of authors or team name>
+{{GRF_TITLE}} - Trackset for OpenTTD
+Copyright (C) 2012 Dutch Trackset Team
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -194,16 +191,24 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 
 
 ----------------------
-9 Obtaining the source
+9 Source code
 ----------------------
+
+9.1 Obtaining the source
+---------------------
 
 The source code can be obtained from the #openttdcoop DevZone
 via source browser:
-    http://dev.openttdcoop.org/projects/<projectname>/repository
+    http://dev.openttdcoop.org/projects/dutchtracks/repository
 or via mercurial checkout:
-    hg clone http://hg.openttdcoop.org/<projectname>
+    hg clone http://hg.openttdcoop.org/dutchtracks
 or via a source bundle download (releases only):
-    http://bundles.openttdcoop.org/<projectname>/
+    http://bundles.openttdcoop.org/dutchtracks
 
-How to build from source and the requirements for that are included 
-with the source in the file /docs/building_from_source.txt.
+	
+9.2 Building from source
+---------------------	
+
+You can build the source code using the make command in Linux.
+See http://dev.openttdcoop.org/documents/28 for a guide by Foobar on
+the use of make on linux and the list of packages you need to install.

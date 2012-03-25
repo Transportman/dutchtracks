@@ -1,38 +1,38 @@
 //Define railtype RAIL
 item(FEAT_RAILTYPES,item_RAIL) {
-property {
-//Naming
-label:						"RAIL";
-name:						string(STR_NAME_RAIL);
-toolbar_caption:			string(STR_TOOL_RAIL);
-menu_text:					string(STR_MENU_RAIL);
-build_window_caption:		string(STR_BUIL_RAIL);
-autoreplace_text:			string(STR_REPL_RAIL);
-new_engine_text:			string(STR_NENG_RAIL);
+	property {
+		//Naming
+		label:						"RAIL";
+		name:						string(STR_NAME_RAIL);
+		toolbar_caption:			string(STR_TOOL_RAIL);
+		menu_text:					string(STR_MENU_RAIL);
+		build_window_caption:		string(STR_BUIL_RAIL);
+		autoreplace_text:			string(STR_REPL_RAIL);
+		new_engine_text:			string(STR_NENG_RAIL);
 
-//Properties of the rail
-introduction_date:			date(1950,01,01);
-compatible_railtype_list:	["RAIL","ELRL"];
-powered_railtype_list:		["RAIL","ELRL"];
-speed_limit:				0;
-curve_speed_multiplier:		10;
-acceleration_model:			ACC_MODEL_RAIL;
+		//Properties of the rail
+		introduction_date:			date(1950,01,01);
+		compatible_railtype_list:	["RAIL","ELRL"];
+		powered_railtype_list:		["RAIL","ELRL"];
+		speed_limit:				0;
+		curve_speed_multiplier:		10;
+		acceleration_model:			ACC_MODEL_RAIL;
 
-//Costs
-construction_cost:			1;
-maintenance_cost:			1;
+		//Costs
+		construction_cost:			1;
+		maintenance_cost:			1;
 
-//Graphics and other stuff
-station_graphics:			RAILTYPE_STATION_NORMAL;
-}
+		//Graphics and other stuff
+		station_graphics:			RAILTYPE_STATION_NORMAL;
+		//No catenary, level crossings are allowed, so no flags
+	}
 
-//graphics {
-
-//track_overlay:	spriteset_RAIL_overlay;
-//underlay:			spriteset_RAIL_underlay;
-//tunnels:			spriteset_RAIL_tunnel;
-//level_crossings:  spriteset_RAIL_levcross;
-//depots:           spriteset_RAIL_depot;
-//bridge_surfaces:  spriteset_RAIL_bridges;
-//}
+	//graphics {
+		//track_overlay:	spriteset_RAIL_overlay;
+		//underlay:			spriteset_RAIL_underlay;
+		//tunnels:			spriteset_RAIL_tunnel;
+		//level_crossings:  spriteset_RAIL_levcross;
+		//depots:           spriteset_RAIL_depot;
+		//bridge_surfaces:  spriteset_RAIL_bridges;
+	//}
 }

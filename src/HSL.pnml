@@ -26,7 +26,6 @@ item(FEAT_RAILTYPES,item_HSL) {
 		station_graphics:			RAILTYPE_STATION_NORMAL;
 		railtype_flags:				bitmask(RAILTYPE_FLAG_CATENARY,RAILTYPE_FLAG_NO_LEVEL_CROSSING);
 	}
-	
 	//graphics {
 		//track_overlay:	spriteset_HSL_overlay;
 		//underlay:			spriteset_HSL_underlay;

@@ -1,12 +1,12 @@
-//This file contains the offsets matching the template
+ï»¿//This file contains the offsets matching the template in use
 
 //Offsets based on NuTracks v1.1.2
-//Coded by Oberhümer
+//Coded by Oberhumer
 //Offsets by DJ Nekkid
 //Modified by Transportman 27-03-2012
 
 //Overlay
-template template_overlay {
+template template_overlay() {
     //left_x, upper_y, width, height, offset_x, offset_y
     [   1,    1,       63,    31,     -31,         0]
     [  66,    1,       63,    31,     -31,         0]
@@ -22,7 +22,7 @@ template template_overlay {
 }
 
 //Underlay	
-template template_underlay {
+template template_underlay() {
     //left_x, upper_y, width, height, offset_x, offset_y
     [   1,    1,       63,    31,     -31,         0]
     [  66,    1,       63,    31,     -31,         0]
@@ -45,7 +45,7 @@ template template_underlay {
 }
 
 //Tunnel
-template template_tunnel {
+template template_tunnel() {
 	//left_x, upper_y, width, height, offset_x, offset_y
     [   3,    1,       63,    30,       -32,        0]
     [  68,    1,       63,    30,       -31,        0]
@@ -54,7 +54,7 @@ template template_tunnel {
 }
 
 //Bridge surface
-template template_bridge {
+template template_bridge() {
 	//left_x, upper_y, width, height, offset_x, offset_y
 	[   1,    1,       64,    31,       -31,        0]
 	[  66,    1,       64,    31,       -31,        0]
@@ -66,7 +66,7 @@ template template_bridge {
 }
 
 //Level Crossings (Track only)
-template template_levcross {
+template template_levcross() {
 	//left_x, upper_y, width, height, offset_x, offset_y
 	[  1,     1,       64,    31,       -31,        0]
 	[ 66,     1,       64,    31,       -31,        0]

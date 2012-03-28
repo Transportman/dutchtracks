@@ -65,7 +65,7 @@ Set the parameters before starting a new game. Once started they
 cannot be changed any longer.
 
 Currently the following parameters are available:
-	Speed limits: Can be set on or off. Default value is on.
+	-Speed limits: Can be set on or off. Default value is on.
 					This parameter allows you to disable
 					the track speed limits.
 
@@ -120,9 +120,10 @@ Translations:
 - <translator 2>
 
 Makefile system:
-- <usually planetmaker>
+- Planetmaker
 
-
+Templates based on NuTracks v1.1.2 Planning Tracks
+By Oberhümer and DJ Nekkid
 
 ---------------------
 7 Contact information

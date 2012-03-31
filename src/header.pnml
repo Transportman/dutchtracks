@@ -4,7 +4,7 @@ grf {
 	name:	string(STR_GRF_NAME);
 	desc:	string(STR_GRF_DESCRIPTION);
 	version:		REPO_REVISION;
-	min_compatible_version:	0;
+	min_compatible_version:	29;
 	
 	//paremeters go below here
 	param 1 {

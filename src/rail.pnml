@@ -1,4 +1,4 @@
-//Define railtype RAIL
+//Defines RAIL (Unelectrified 160 km/h)
 item(FEAT_RAILTYPES,item_RAIL) {
 	property {
 		//Naming
@@ -32,7 +32,7 @@ item(FEAT_RAILTYPES,item_RAIL) {
 	//on
 	if ( param_speed_limit == 1 ) {
 		property {
-			speed_limit: 			300 km/h;
+			speed_limit: 			160 km/h;
 		}
 	}
 	//off

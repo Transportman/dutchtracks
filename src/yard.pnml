@@ -1,0 +1,54 @@
+//Defines YARD (Universal 40 km/h)
+item(FEAT_RAILTYPES,item_YARD) {
+	property {
+		//Naming
+		label:						"ELRL";
+		name:						string(STR_NAME_YARD);
+		toolbar_caption:			string(STR_TOOL_YARD);
+		menu_text:					string(STR_MENU_YARD);
+		build_window_caption:		string(STR_BUIL_YARD);
+		autoreplace_text:			string(STR_REPL_YARD);
+		new_engine_text:			string(STR_NENG_YARD);
+
+		//Properties of the rail
+		introduction_date:			date(1950,01,01);
+		compatible_railtype_list:	["RAIL","ELRL"];
+		powered_railtype_list:		["ELRL"];
+		curve_speed_multiplier:		1;
+		acceleration_model:			ACC_MODEL_RAIL;
+
+		//Costs
+		construction_cost:			1;
+		maintenance_cost:			1;
+
+		//Graphics and other stuff
+		station_graphics:			RAILTYPE_STATION_NORMAL;
+		railtype_flags:				bitmask(RAILTYPE_FLAG_CATENARY);
+	}
+	
+	//Properties that depend on the parameter settings
+	
+	//Speedlimits
+	//on
+	if ( param_speed_limit == 1 ) {
+		property {
+			speed_limit: 			40 km/h;
+		}
+	}
+	//off
+	else {
+		property {
+			speed_limit:		 	0 km/h;
+		}
+	}
+	
+	
+	
+	//graphics {
+		//track_overlay:	spriteset_YARD_overlay;
+		//underlay:			spriteset_YARD_underlay;
+		//tunnels:			spriteset_YARD_tunnel;
+		//level_crossings:  spriteset_YARD_levcross;     
+		//bridge_surfaces:  spriteset_YARD_bridges;
+	//}
+}

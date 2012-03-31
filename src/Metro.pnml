@@ -1,0 +1,55 @@
+//Defines Metro
+item(FEAT_RAILTYPES,item_METRO) {
+	property {
+		//Naming
+		label:						"SAE3";
+		name:						string(STR_NAME_METRO);
+		toolbar_caption:			string(STR_TOOL_METRO);
+		menu_text:					string(STR_MENU_METRO);
+		build_window_caption:		string(STR_BUIL_METRO);
+		autoreplace_text:			string(STR_REPL_METRO);
+		new_engine_text:			string(STR_NENG_METRO);
+
+		//Properties of the rail
+		introduction_date:			date(1950,01,01);
+		compatible_railtype_list:	["RAIL"];
+		//powered_railtype_list:		; //Empty
+		curve_speed_multiplier:		1;
+		acceleration_model:			ACC_MODEL_RAIL;
+
+		//Costs
+		construction_cost:			1;
+		maintenance_cost:			1;
+
+		//Graphics and other stuff
+		station_graphics:			RAILTYPE_STATION_NORMAL;
+		//railtype_flags:				bitmask(); //No catanary, level crossings allowed
+	}
+
+	//Properties that depend on the parameter settings
+	
+	//Speedlimits
+	//on
+	if ( param_speed_limit == 1 ) {
+		property {
+			speed_limit: 			120 km/h;
+		}
+	}
+	//off
+	else {
+		property {
+			speed_limit:		 	0 km/h;
+		}
+	}	
+	
+	
+	
+	//graphics {
+		//track_overlay:	spriteset_METRO_overlay;
+		//underlay:			spriteset_METRO_underlay;
+		//tunnels:			spriteset_METRO_tunnel;
+		//level_crossings:  spriteset_METRO_levcross;
+		//depots:           spriteset_METRO_depot;
+		//bridge_surfaces:  spriteset_METRO_bridges;
+	//}
+}

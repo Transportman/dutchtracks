@@ -26,6 +26,22 @@ item(FEAT_RAILTYPES,item_RAIL) {
 		//No catenary, level crossings are allowed, so no flags
 	}
 
+	//Properties that depend on the parameter settings
+	
+	//Speedlimits
+	//on
+	if ( param_speed_limit == 1 ) {
+		property {
+			speed_limit: 			300 km/h;
+		}
+	}
+	//off
+	else {
+		property {
+			speed_limit:		 	0 km/h;
+		}
+	}
+	
 	//graphics {
 		//track_overlay:	spriteset_RAIL_overlay;
 		//underlay:			spriteset_RAIL_underlay;
@@ -35,22 +51,3 @@ item(FEAT_RAILTYPES,item_RAIL) {
 		//bridge_surfaces:  spriteset_RAIL_bridges;
 	//}
 }
-
-//Speedlimits below, to allow parameter to work
-
-//Speedlimits enabled
-if ( param_speed_limit == 1 ) {
-	item(FEAT_RAILTYPES,item_RAIL) {
-		property {
-			speed_limit: 			160 km/h;
-		}
-	}
-}
-//Speedlimits disabled
-else {
-	item(FEAT_RAILTYPES,item_RAIL) {
-		property {
-			speed_limit:		 	0 km/h;
-		}
-	}
-}	

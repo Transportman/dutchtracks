@@ -1,0 +1,36 @@
+//Defines Futuristic (Universal Unlimited speed)
+item(FEAT_RAILTYPES,item_FUTURISTIC) {
+	property {
+		//Naming
+		label:						"SAEE";
+		name:						string(STR_NAME_FUTURISTIC);
+		toolbar_caption:			string(STR_TOOL_FUTURISTIC);
+		menu_text:					string(STR_MENU_FUTURISTIC);
+		build_window_caption:		string(STR_BUIL_FUTURISTIC);
+		autoreplace_text:			string(STR_REPL_FUTURISTIC);
+		new_engine_text:			string(STR_NENG_FUTURISTIC);
+
+		//Properties of the rail
+		introduction_date:			date(1950,01,01);
+		compatible_railtype_list:	["RAIL","ELRL"];
+		powered_railtype_list:		["ELRL"];
+		curve_speed_multiplier:		10;
+		acceleration_model:			ACC_MODEL_RAIL;
+
+		//Costs
+		construction_cost:			1;
+		maintenance_cost:			1;
+
+		//Graphics and other stuff
+		station_graphics:			RAILTYPE_STATION_NORMAL;
+		railtype_flags:				bitmask(RAILTYPE_FLAG_CATENARY,RAILTYPE_FLAG_NO_LEVEL_CROSSING);
+	}
+		
+	//graphics {
+		//track_overlay:	spriteset_FUTURISTIC_overlay;
+		//underlay:			spriteset_FUTURISTIC_underlay;
+		//tunnels:			spriteset_FUTURISTIC_tunnel;
+		//level_crossings:  spriteset_FUTURISTIC_levcross;     // will be blanks, because level crossings are not possible with FUTURISTIC (Universal) tracks, but still need to be defined
+		//bridge_surfaces:  spriteset_FUTURISTIC_bridges;
+	//}
+}

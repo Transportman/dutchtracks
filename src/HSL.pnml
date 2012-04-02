@@ -12,8 +12,8 @@ item(FEAT_RAILTYPES,item_FUTURISTIC (Universal)) {
 
 		//Properties of the rail
 		introduction_date:			date(1950,01,01);
-		compatible_railtype_list:	["RAIL","ELRL"];
-		powered_railtype_list:		["ELRL"];
+		compatible_railtype_list:	["RAIL","ELRL","SAEA","SBEE","SBCA"];
+		powered_railtype_list:		["ELRL","SBEE","SAEA"];
 		curve_speed_multiplier:		10;
 		acceleration_model:			ACC_MODEL_RAIL;
 

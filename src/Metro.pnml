@@ -12,7 +12,7 @@ item(FEAT_RAILTYPES,item_METRO) {
 
 		//Properties of the rail
 		introduction_date:			date(1950,01,01);
-		compatible_railtype_list:	["RAIL"];
+		//compatible_railtype_list:		; //Empty
 		//powered_railtype_list:		; //Empty
 		curve_speed_multiplier:		1;
 		acceleration_model:			ACC_MODEL_RAIL;

@@ -42,6 +42,21 @@ item(FEAT_RAILTYPES,item_FUTURISTIC (Universal)) {
 		}
 	}
 	
+	//Track Compatibility
+	//Non electrified, electrified, metro
+	if ( param_track_compat == 1) {
+		property {
+			compatible_railtype_list:	["RAIL","ELRL","SAEA","SBEE","SBCA","SADD"];
+			powered_railtype_list:		["ELRL","SAEA","SBEE","SBCA","SADD"];
+		}	
+	}
+	//Full compatibility (Non electrfied, electrified)
+	if (param_track_compat == 2) {
+		property {
+			compatible_railtype_list:	["RAIL","ELRL","SAEA","SBEE","SBCA","SADD","SAA3"];
+			powered_railtype_list:		["ELRL","SAEA","SBEE","SBCA","SADD","SAA3"];
+		}
+	}	
 	
 	
 	//graphics {

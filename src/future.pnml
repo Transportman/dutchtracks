@@ -25,7 +25,24 @@ item(FEAT_RAILTYPES,item_FUTURISTIC) {
 		station_graphics:			RAILTYPE_STATION_NORMAL;
 		railtype_flags:				bitmask(RAILTYPE_FLAG_CATENARY,RAILTYPE_FLAG_NO_LEVEL_CROSSING);
 	}
-		
+
+	//Track Compatibility
+	//Non electrified, electrified, metro
+	if ( param_track_compat == 1) {
+		property {
+			compatible_railtype_list:	["RAIL","ELRL","SAEA","SBEE","SBCA","SADD"];
+			powered_railtype_list:		["ELRL","SAEA","SBEE","SBCA","SADD"];
+		}	
+	}
+	//Full compatibility (Non electrfied, electrified)
+	if (param_track_compat == 2) {
+		property {
+			compatible_railtype_list:	["RAIL","ELRL","SAEA","SBEE","SBCA","SADD","SAA3"];
+			powered_railtype_list:		["ELRL","SAEA","SBEE","SBCA","SADD","SAA3"];
+		}
+	}	
+
+	
 	//graphics {
 		//track_overlay:	spriteset_FUTURISTIC_overlay;
 		//underlay:			spriteset_FUTURISTIC_underlay;

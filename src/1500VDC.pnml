@@ -42,6 +42,22 @@ item(FEAT_RAILTYPES,item_STANDARDRAIL) {
 		}
 	}	
 	
+	//Track Compatibility
+	if ( param_track_compat == 1) {
+		property {
+			compatible_railtype_list:	["RAIL","ELRL","SAEA","SBEE","SBCA","SADD"];
+			powered_railtype_list:		["ELRL","SAEA","SBEE","SBCA","SADD"];
+		}	
+	}
+	//Full compatibility (Non electrfied, electrified)
+	if (param_track_compat == 2) {
+		property {
+			compatible_railtype_list:	["RAIL","ELRL","SAEA","SBEE","SBCA","SADD","SAA3"];
+			powered_railtype_list:		["ELRL","SAEA","SBEE","SBCA","SADD","SAA3"];
+		}
+	}	
+	
+	
 	//graphics {
 		//track_overlay:	spriteset_CLASSIC_ELRL_overlay;
 		//underlay:			spriteset_CLASSIC_ELRL_underlay;

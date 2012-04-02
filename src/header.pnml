@@ -9,13 +9,27 @@ grf {
 	//paremeters go below here
 	param 1 {
 		param_speed_limit {
-				type:	bool;
-				name:	string(STR_PARAM_NAME_SPEED);
-				desc:	string(STR_PARAM_DESC_SPEED);
-				def_value: 1;
-				bit:	1;
-				}
+			type:	bool;
+			name:	string(STR_PARAM_NAME_SPEED);
+			desc:	string(STR_PARAM_DESC_SPEED);
+			def_value: 1;
+			bit:	1;
 		}
+	}
+	param 2 {
+		param_track_compat {
+			name: string(STR_PARAM_NAME_TRACK_COMPAT);
+			desc: string(STR_PARAM_DESC_TRACK_COMPAT);
+			min_value:	0;
+			max_value:	2;
+			def_value:  0;
+			names: {
+				0: string(STR_PARAM_TRACK_COMPAT_DEF);
+				1: string(STR_PARAM_TRACK_COMPAT_POW);
+				2: string(STR_PARAM_TRACK_COMPAT_FULL);
+			};
+		}
+	}
 }
 
 //check for OpenTTD and version

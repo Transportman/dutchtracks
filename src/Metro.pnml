@@ -42,6 +42,14 @@ item(FEAT_RAILTYPES,item_METRO) {
 		}
 	}	
 	
+	//Track Compatibility
+	//Full compatibility (Non electrfied, electrified)
+	if (param_track_compat == 2) {
+		property {
+			compatible_railtype_list:	["RAIL","ELRL","SAEA","SBEE","SBCA","SADD","SAA3"];
+			powered_railtype_list:		["ELRL","SAEA","SBEE","SBCA","SADD","SAA3"];
+		}
+	}	
 	
 	
 	//graphics {

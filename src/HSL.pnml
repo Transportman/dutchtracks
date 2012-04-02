@@ -2,7 +2,7 @@
 item(FEAT_RAILTYPES,item_FUTURISTIC (Universal)) {
 	property {
 		//Naming
-		label:						"SBEA";
+		label:						"SBCA";
 		name:						string(STR_NAME_HSL);
 		toolbar_caption:			string(STR_TOOL_HSL);
 		menu_text:					string(STR_MENU_HSL);

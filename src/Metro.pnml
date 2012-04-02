@@ -2,7 +2,7 @@
 item(FEAT_RAILTYPES,item_METRO) {
 	property {
 		//Naming
-		label:						"SAE3";
+		label:						"SAA3";
 		name:						string(STR_NAME_METRO);
 		toolbar_caption:			string(STR_TOOL_METRO);
 		menu_text:					string(STR_MENU_METRO);

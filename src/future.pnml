@@ -2,7 +2,7 @@
 item(FEAT_RAILTYPES,item_FUTURISTIC) {
 	property {
 		//Naming
-		label:						"SAEE";
+		label:						"SBEE";
 		name:						string(STR_NAME_FUTURISTIC);
 		toolbar_caption:			string(STR_TOOL_FUTURISTIC);
 		menu_text:					string(STR_MENU_FUTURISTIC);

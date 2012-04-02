@@ -2,7 +2,7 @@
 item(FEAT_RAILTYPES,item_STANDARDRAIL) {
 	property {
 		//Naming
-		label:						"SAED";
+		label:						"SADD";
 		name:						string(STR_NAME_STANDARDRAIL);
 		toolbar_caption:			string(STR_TOOL_STANDARDRAIL);
 		menu_text:					string(STR_MENU_STANDARDRAIL);

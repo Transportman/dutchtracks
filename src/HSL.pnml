@@ -9,7 +9,7 @@ item(FEAT_RAILTYPES,item_FUTURISTIC (Universal)) {
 		build_window_caption:		string(STR_BUIL_HSL);
 		autoreplace_text:			string(STR_REPL_HSL);
 		new_engine_text:			string(STR_NENG_HSL);
-
+		sort_order:					04;	
 
 		//Properties of the rail
 		introduction_date:			date(1950,01,01);

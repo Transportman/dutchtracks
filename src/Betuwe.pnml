@@ -9,7 +9,7 @@ item(FEAT_RAILTYPES,item_BETUWE) {
 		build_window_caption:		string(STR_BUIL_BETUWE);
 		autoreplace_text:			string(STR_REPL_BETUWE);
 		new_engine_text:			string(STR_NENG_BETUWE);
-
+		sort_order:					03;	
 
 		//Properties of the rail
 		introduction_date:			date(1950,01,01);

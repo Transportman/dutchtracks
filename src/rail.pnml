@@ -9,7 +9,7 @@ item(FEAT_RAILTYPES,item_RAIL) {
 		build_window_caption:		string(STR_BUIL_RAIL);
 		autoreplace_text:			string(STR_REPL_RAIL);
 		new_engine_text:			string(STR_NENG_RAIL);
-
+		sort_order:					00;
 		
 		//Properties of the rail
 		introduction_date:			date(1950,01,01);

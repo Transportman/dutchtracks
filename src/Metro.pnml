@@ -9,7 +9,7 @@ item(FEAT_RAILTYPES,item_METRO) {
 		build_window_caption:		string(STR_BUIL_METRO);
 		autoreplace_text:			string(STR_REPL_METRO);
 		new_engine_text:			string(STR_NENG_METRO);
-
+		sort_order:					05;	
 
 		//Properties of the rail
 		introduction_date:			date(1950,01,01);

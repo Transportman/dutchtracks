@@ -12,10 +12,10 @@ item(FEAT_RAILTYPES,item_RAIL) {
 		sort_order:					00;
 		
 		//Properties of the rail
-		introduction_date:			date(1950,01,01);
+		introduction_date:			date(1837,01,01);
 		compatible_railtype_list:	["ELRL","SAEA","SBEE","SBCA","SADD"];
 		powered_railtype_list:		["ELRL","SAEA","SBEE","SBCA","SADD"];
-		curve_speed_multiplier:		10;
+		curve_speed_multiplier:		1;
 		acceleration_model:			ACC_MODEL_RAIL;
 
 		//Costs

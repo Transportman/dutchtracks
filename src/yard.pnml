@@ -12,7 +12,7 @@ item(FEAT_RAILTYPES,item_YARD) {
 		sort_order:					01;		
 
 		//Properties of the rail
-		introduction_date:			date(1950,01,01);
+		introduction_date:			date(1907,01,01);
 		compatible_railtype_list:	["RAIL","SAEA","SBEE","SBCA","SADD"];
 		powered_railtype_list:		["SAEA","SBEE","SBCA","SADD"];
 		curve_speed_multiplier:		1;

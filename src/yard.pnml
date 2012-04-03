@@ -9,6 +9,7 @@ item(FEAT_RAILTYPES,item_YARD) {
 		build_window_caption:		string(STR_BUIL_YARD);
 		autoreplace_text:			string(STR_REPL_YARD);
 		new_engine_text:			string(STR_NENG_YARD);
+		
 
 		//Properties of the rail
 		introduction_date:			date(1950,01,01);
@@ -18,8 +19,8 @@ item(FEAT_RAILTYPES,item_YARD) {
 		acceleration_model:			ACC_MODEL_RAIL;
 
 		//Costs
-		construction_cost:			1;
-		maintenance_cost:			1;
+		construction_cost:			24;
+		maintenance_cost:			24;
 
 		//Graphics and other stuff
 		station_graphics:			RAILTYPE_STATION_NORMAL;

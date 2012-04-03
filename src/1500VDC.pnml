@@ -10,6 +10,7 @@ item(FEAT_RAILTYPES,item_STANDARDRAIL) {
 		autoreplace_text:			string(STR_REPL_STANDARDRAIL);
 		new_engine_text:			string(STR_NENG_STANDARDRAIL);
 
+
 		//Properties of the rail
 		introduction_date:			date(1950,01,01);
 		compatible_railtype_list:	["RAIL","ELRL","SAEA","SBEE","SBCA"];
@@ -18,8 +19,8 @@ item(FEAT_RAILTYPES,item_STANDARDRAIL) {
 		acceleration_model:			ACC_MODEL_RAIL;
 
 		//Costs
-		construction_cost:			1;
-		maintenance_cost:			1;
+		construction_cost:			24;
+		maintenance_cost:			24;
 
 		//Graphics and other stuff
 		station_graphics:			RAILTYPE_STATION_NORMAL;

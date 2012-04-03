@@ -10,6 +10,7 @@ item(FEAT_RAILTYPES,item_METRO) {
 		autoreplace_text:			string(STR_REPL_METRO);
 		new_engine_text:			string(STR_NENG_METRO);
 
+
 		//Properties of the rail
 		introduction_date:			date(1950,01,01);
 		//compatible_railtype_list:		; //Empty
@@ -18,8 +19,8 @@ item(FEAT_RAILTYPES,item_METRO) {
 		acceleration_model:			ACC_MODEL_RAIL;
 		alternative_railtype_list:	["3RDR","MTRO"];
 		//Costs
-		construction_cost:			1;
-		maintenance_cost:			1;
+		construction_cost:			30;
+		maintenance_cost:			30;
 
 		//Graphics and other stuff
 		station_graphics:			RAILTYPE_STATION_NORMAL;

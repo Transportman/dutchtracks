@@ -9,6 +9,7 @@ http://newgrf-specs.tt-wiki.net/wiki/NML:Railtypes
 Only the entries marked with a */[1] in the spec have to be provided (and currently have templates).
 For the lights at the level crossings there is no template yet, so these don't have to be done at this moment.
 
-Bridge surfaces can be the same as the corresponding sprites from the underlay (but don't have to be).
+For bridges only the overlay has to be done. They can almost be the same as the normal overlay graphics, but have
+to be slightly modified, because the templates have different sizes.
 
 Please check your work ingame (if possible) for alignments. When needed, offsets can be changed for better alignment.

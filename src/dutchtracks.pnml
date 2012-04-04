@@ -3,13 +3,13 @@
 
 //include all other files here, like above
 //Graphics here
-#include "src/templates.pnml"	//Templates
+#include "src/Templates.pnml"	//Templates
 
 //Tracktypes here
 #include "src/rail.pnml"				//Unelectrified Rail
 #include "src/yard.pnml"				//Yard rail (Universal 40km/h, ELRL)
 #include "src/1500VDC.pnml"				//Normal rail in the Netherlands 160 km/h)
 #include "src/Betuwe.pnml"				//Betuwe (25kV AC 120 km/h)
-#include "src/future.pnml" 				//FUTURISTIC (Universal) (2500kV AC 300 km/h)
-#include "src/Future.pnml"				//Future (Universal No speed limit)
+#include "src/HSL.pnml" 				//HSL (Universal) (2500kV AC 300 km/h)
+#include "src/future.pnml"				//Futuristic (Universal No speed limit)
 #include "src/Metro.pnml"				//Metro (Metro, 120 km/h)

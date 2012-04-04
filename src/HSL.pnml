@@ -1,5 +1,5 @@
-//Defines FUTURISTIC (Universal) (25 kV AC, 300 km/h)
-item(FEAT_RAILTYPES,item_FUTURISTIC (Universal)) {
+//Defines HSL (25 kV AC, 300 km/h)
+item(FEAT_RAILTYPES,item_HSL) {
 	property {
 		//Naming
 		label:						"SBCA";

@@ -19,8 +19,8 @@ item(FEAT_RAILTYPES,item_BETUWE) {
 		acceleration_model:			ACC_MODEL_RAIL;
 
 		//Costs
-		construction_cost:			80;
-		maintenance_cost:			80;
+		construction_cost:			16;
+		maintenance_cost:			16;
 
 		//Graphics and other stuff
 		station_graphics:			RAILTYPE_STATION_NORMAL;

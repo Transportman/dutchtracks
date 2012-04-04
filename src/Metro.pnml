@@ -20,8 +20,8 @@ item(FEAT_RAILTYPES,item_METRO) {
 		alternative_railtype_list:	["3RDR","MTRO"];
 		
 		//Costs
-		construction_cost:			30;
-		maintenance_cost:			30;
+		construction_cost:			12;
+		maintenance_cost:			12;
 
 		//Graphics and other stuff
 		station_graphics:			RAILTYPE_STATION_NORMAL;

@@ -19,8 +19,8 @@ item(FEAT_RAILTYPES,item_STANDARDRAIL) {
 		acceleration_model:			ACC_MODEL_RAIL;
 
 		//Costs
-		construction_cost:			24;
-		maintenance_cost:			24;
+		construction_cost:			12;
+		maintenance_cost:			12;
 
 		//Graphics and other stuff
 		station_graphics:			RAILTYPE_STATION_NORMAL;

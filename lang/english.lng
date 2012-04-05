@@ -16,6 +16,16 @@ STR_PARAM_TRACK_COMPAT_DEF		:Non electrified, DC, AC, Metro (Default)
 STR_PARAM_TRACK_COMPAT_POW		:Non electrified, electrified, Metro (No distinction AC/DC)
 STR_PARAM_TRACK_COMPAT_FULL		:Non electrified, electrified (No distinction AC/DC/Metro)
 
+# Level Crossing Highspeed
+STR_PARAM_NAME_LEVCROSS_HIGH	:Level crossings for HSL/Betuwe/Futuristic
+STR_PARAM_DESC_LEVCROSS_HIGH	:Use this parameter to enable/disable level crossings for the HSL/Betuwe/Futuristic tracks
+
+# Level Crossing Metro
+STR_PARAM_NAME_LEVCROSS_METRO	:Level crossings for Metro
+STR_PARAM_DESC_LEVCROSS_METRO	:Use this parameter to enable/disable level crossings for Metro tracks
+
+
+
 # Rail descriptions
 
 # Unelectrified Rail

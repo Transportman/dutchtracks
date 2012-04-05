@@ -24,7 +24,7 @@ item(FEAT_RAILTYPES,item_HSL) {
 
 		//Graphics and other stuff
 		station_graphics:			RAILTYPE_STATION_NORMAL;
-		railtype_flags:				bitmask(RAILTYPE_FLAG_CATENARY,RAILTYPE_FLAG_NO_LEVEL_CROSSING);
+		railtype_flags:				bitmask(RAILTYPE_FLAG_CATENARY);
 	}
 	
 	//Properties that depend on the parameter settings
@@ -59,12 +59,18 @@ item(FEAT_RAILTYPES,item_HSL) {
 		}
 	}	
 	
+	//Disable Level Crossings
+	if (param_levcross_high == 0) {
+		property {
+			railtype_flags:			bitmask(RAILTYPE_FLAG_CATENARY,RAILTYPE_FLAG_NO_LEVEL_CROSSING);
+		}
+	}
 	
 	//graphics {
 		//track_overlay:	spriteset_HSL_overlay;
 		//underlay:			spriteset_HSL_underlay;
 		//tunnels:			spriteset_HSL_tunnel;
-		//level_crossings:  spriteset_HSL_levcross;     // will be blanks, because level crossings are not possible with FUTURISTIC (Universal) tracks, but still need to be defined
+		//level_crossings:  spriteset_HSL_levcross;
 		//bridge_surfaces:  spriteset_HSL_bridges;
 	//}
 }

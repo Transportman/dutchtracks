@@ -12,8 +12,7 @@ grf {
 			type:	bool;
 			name:	string(STR_PARAM_NAME_SPEED);
 			desc:	string(STR_PARAM_DESC_SPEED);
-			def_value: 1;
-			bit:	1;
+			def_value: 	1;
 		}
 	}
 	param 2 {
@@ -28,6 +27,22 @@ grf {
 				1: string(STR_PARAM_TRACK_COMPAT_POW);
 				2: string(STR_PARAM_TRACK_COMPAT_FULL);
 			};
+		}
+	}
+	param 3 {
+		param_levcross_high {
+			type:	bool;
+			name:	string(STR_PARAM_NAME_LEVCROSS_HIGH);
+			desc:	string(STR_PARAM_DESC_LEVCROSS_HIGH);
+			def_value:	0;
+		}
+	}
+	param 4 {
+		param_levcross_metro {
+			type:	bool;
+			name:	string(STR_PARAM_NAME_LEVCROSS_METRO);
+			desc:	string(STR_PARAM_DESC_LEVCROSS_METRO);
+			def_value:	1;
 		}
 	}
 }

@@ -52,7 +52,13 @@ item(FEAT_RAILTYPES,item_METRO) {
 			powered_railtype_list:		["ELRL","SAEA","SBEE","SBCA","SADD","SAA3"];
 		}
 	}	
-	
+
+	//Disable Level Crossings
+	if (param_levcross_metro == 0) {
+		property {
+			railtype_flags:			bitmask(RAILTYPE_FLAG_NO_LEVEL_CROSSING);
+		}
+	}	
 	
 	graphics {
 		track_overlay:		spriteset_metro_overlay;

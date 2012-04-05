@@ -12,7 +12,6 @@ item(FEAT_RAILTYPES,item_BETUWE) {
 		sort_order:					03;	
 
 		//Properties of the rail
-		introduction_date:			date(1997,01,01);
 		compatible_railtype_list:	["RAIL","ELRL","SAEA","SBEE","SBCA"];
 		powered_railtype_list:		["ELRL","SBCA","SBEE"];
 		curve_speed_multiplier:		10;

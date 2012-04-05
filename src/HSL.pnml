@@ -12,7 +12,6 @@ item(FEAT_RAILTYPES,item_HSL) {
 		sort_order:					04;	
 
 		//Properties of the rail
-		introduction_date:			date(2000,01,01);
 		compatible_railtype_list:	["RAIL","ELRL","SAEA","SBEE","SBCA"];
 		powered_railtype_list:		["ELRL","SBEE","SAEA"];
 		curve_speed_multiplier:		10;

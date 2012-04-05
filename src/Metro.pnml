@@ -12,7 +12,6 @@ item(FEAT_RAILTYPES,item_METRO) {
 		sort_order:					05;	
 
 		//Properties of the rail
-		introduction_date:			date(1961,01,01);
 		//compatible_railtype_list:		; //Empty
 		//powered_railtype_list:		; //Empty
 		curve_speed_multiplier:		1;

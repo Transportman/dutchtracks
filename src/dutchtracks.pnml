@@ -5,6 +5,11 @@
 //Graphics here
 #include "src/Templates.pnml"	//Templates
 
+
+
+
+#include "src/Metrographics.pnml"		//Metro graphics
+
 //Tracktypes here
 #include "src/rail.pnml"				//Unelectrified Rail
 #include "src/yard.pnml"				//Yard rail (Universal 40km/h, ELRL)

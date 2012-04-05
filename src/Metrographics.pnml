@@ -1,0 +1,34 @@
+//Metro graphics file
+
+//Overlay
+spriteset(spriteset_metro_overlay,"gfx/Metro/Overlay-metro.png") {
+	template_overlay()
+}
+
+//Underlay
+spriteset(spriteset_metro_underlay,"gfx/Metro/Underlay-metro.png") {
+	template_underlay()
+}
+
+//Tunnel
+spriteset(spriteset_metro_tunnel,"gfx/Metro/Tunnel-metro.png") {
+	template_tunnel()
+}
+
+//Bridge
+spriteset(spriteset_metro_bridge,"gfx/Metro/Bridge-metro.png") {
+	template_bridge()
+}
+
+//Level Crossing
+spriteset(spriteset_metro_levcross,"gfx/Metro/LevelCrossing-metro.png") {
+	template_levcross()
+	[  1,     1,       1,    1,       0,        0]
+	[  1,     1,       1,    1,       0,        0]
+	[  1,     1,       1,    1,       0,        0]
+	[  1,     1,       1,    1,       0,        0]
+	[  1,     1,       1,    1,       0,        0]
+	[  1,     1,       1,    1,       0,        0]
+	[  1,     1,       1,    1,       0,        0]
+	[  1,     1,       1,    1,       0,        0]
+}

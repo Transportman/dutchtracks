@@ -54,12 +54,11 @@ item(FEAT_RAILTYPES,item_METRO) {
 	}	
 	
 	
-	//graphics {
-		//track_overlay:	spriteset_METRO_overlay;
-		//underlay:			spriteset_METRO_underlay;
-		//tunnels:			spriteset_METRO_tunnel;
-		//level_crossings:  spriteset_METRO_levcross;
-		//depots:           spriteset_METRO_depot;
-		//bridge_surfaces:  spriteset_METRO_bridges;
-	//}
+	graphics {
+		track_overlay:		spriteset_metro_overlay;
+		underlay:			spriteset_metro_underlay;
+		tunnels:			spriteset_metro_tunnel;
+		level_crossings:  	spriteset_metro_levcross;
+		bridge_surfaces:  	spriteset_metro_bridge;
+	}
 }

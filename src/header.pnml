@@ -6,8 +6,8 @@ grf {
 	version:		REPO_REVISION;
 	min_compatible_version:	43;
 	
-	//paremeters go below here
-	param 1 {
+	//parameters go below here
+	param 1 { //parameter to disable speedlimits
 		param_speed_limit {
 			type:	bool;
 			name:	string(STR_PARAM_NAME_SPEED);
@@ -15,7 +15,8 @@ grf {
 			def_value: 	1;
 		}
 	}
-	param 2 {
+	
+	param 2 { //parameter to set track compatibilities
 		param_track_compat {
 			name: string(STR_PARAM_NAME_TRACK_COMPAT);
 			desc: string(STR_PARAM_DESC_TRACK_COMPAT);
@@ -29,7 +30,8 @@ grf {
 			};
 		}
 	}
-	param 3 {
+	
+	param 3 { //parameter to enable level crossings on HSL/Betuwe/Futuristic
 		param_levcross_high {
 			type:	bool;
 			name:	string(STR_PARAM_NAME_LEVCROSS_HIGH);
@@ -37,7 +39,8 @@ grf {
 			def_value:	0;
 		}
 	}
-	param 4 {
+	
+	param 4 { //parameter to enable level crossings on Metro
 		param_levcross_metro {
 			type:	bool;
 			name:	string(STR_PARAM_NAME_LEVCROSS_METRO);

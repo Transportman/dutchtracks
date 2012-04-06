@@ -26,7 +26,7 @@ STR_PARAM_DESC_LEVCROSS_METRO	:Use this parameter to enable/disable level crossi
 
 # Early Track Introduction
 STR_PARAM_NAME_EARLY_INTRO		:Early introduction
-STR_PARAM_DESC_EARLY_INTRO		:Turning this parameter on will make all tracks available in 1800. When off, tracks get introduced when a train is available for that tracktype or in 2050, whichever comes first.
+STR_PARAM_DESC_EARLY_INTRO		:Turning this parameter on will make all tracks available in 1800. When off, tracks get introduced when a train is available for that tracktype or in 2050, whichever comes first. Make sure to have a train set that provides trains for all types or set the track compatibility parameter correct!
 
 
 # Rail descriptions

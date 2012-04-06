@@ -48,6 +48,14 @@ grf {
 			def_value:	1;
 		}
 	}
+	param 5 { //parameter to enable early rail introduction
+		param_early_intro {
+			type:	bool;
+			name:	string(STR_PARAM_NAME_EARLY_INTRO);
+			desc:	string(STR_PARAM_DESC_EARLY_INTRO);
+			def_value:	0;
+		}	
+	}		
 }
 
 //check for OpenTTD and version

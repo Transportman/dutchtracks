@@ -12,8 +12,8 @@ item(FEAT_RAILTYPES,item_FUTURISTIC) {
 		sort_order:					04;	
 
 		//Properties of the rail
-		compatible_railtype_list:	["RAIL","ELRL","SAEA","SBEE","SBCA"];
-		powered_railtype_list:		["ELRL","SAEA","SBEE","SBCA"];
+		compatible_railtype_list:	["RAIL","ELRL","SAEA","SBEE","SBCA","SADD"];
+		powered_railtype_list:		["ELRL","SAEA","SBEE","SBCA","SADD"];
 		curve_speed_multiplier:		10;
 		acceleration_model:			ACC_MODEL_RAIL;
 
@@ -27,6 +27,9 @@ item(FEAT_RAILTYPES,item_FUTURISTIC) {
 		
 		//Long list with fallback types:
 		alternative_railtype_list:	["SBAE","SBBE","SBCE","SBDE","SBEE","SBAC","SBBC","SBCC","SBDC","SBEC"];
+		
+		//This track also introduces the other tracks as back up when trainsets don't introduce trains for compatible types
+		introduces_railtype_list:	["RAIL","ELRL","SAEA","SBEE","SBCA","SADD"];
 	}
 
 	//Track Compatibility
@@ -51,6 +54,18 @@ item(FEAT_RAILTYPES,item_FUTURISTIC) {
 			railtype_flags:			bitmask(RAILTYPE_FLAG_CATENARY,RAILTYPE_FLAG_NO_LEVEL_CROSSING);
 		}
 	}	
+	
+	//Early introduction override (this part guarantees that all tracks become available at some point
+	if (param_early_intro == 0) {
+		property {
+			introduction_date: 	date(2050,01,01);
+		}
+	}	
+	if (param_early_intro == 1) {
+		property {
+			introduction_date:	date(1800,01,01);
+		}
+	}
 	
 	//graphics {
 		//track_overlay:	spriteset_FUTURISTIC_overlay;

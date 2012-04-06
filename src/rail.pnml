@@ -24,6 +24,9 @@ item(FEAT_RAILTYPES,item_RAIL) {
 		//Graphics and other stuff
 		station_graphics:			RAILTYPE_STATION_NORMAL;
 		//No catenary, level crossings are allowed, so no flags
+		
+		//Long list with fallback types:
+		alternative_railtype_list:	["SAAN","SABN","SACN","SADN","SAEN"];		
 	}
 
 	//Properties that depend on the parameter settings

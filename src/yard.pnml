@@ -24,6 +24,9 @@ item(FEAT_RAILTYPES,item_YARD) {
 		//Graphics and other stuff
 		station_graphics:			RAILTYPE_STATION_NORMAL;
 		railtype_flags:				bitmask(RAILTYPE_FLAG_CATENARY);
+		
+		//Long list with fallback types:
+		alternative_railtype_list:	["SAAE","SABE","SACE","SADE","SAEE","SAAC","SABC","SACC","SADC","SAEC"];	
 	}
 	
 	//Properties that depend on the parameter settings

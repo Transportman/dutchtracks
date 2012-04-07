@@ -26,7 +26,7 @@ item(FEAT_RAILTYPES,item_YARD) {
 		railtype_flags:				bitmask(RAILTYPE_FLAG_CATENARY);
 		
 		//Long list with fallback types:
-		alternative_railtype_list:	["SAAE","SABE","SACE","SADE","SAEE","SAAC","SABC","SACC","SADC","SAEC"];	
+		alternative_railtype_list:	["SAAE","SABE","SACE","SADE","SAEE"];	
 	}
 	
 	//Properties that depend on the parameter settings

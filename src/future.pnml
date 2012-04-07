@@ -26,7 +26,7 @@ item(FEAT_RAILTYPES,item_FUTURISTIC) {
 		railtype_flags:				bitmask(RAILTYPE_FLAG_CATENARY);
 		
 		//Long list with fallback types:
-		alternative_railtype_list:	["SBAE","SBBE","SBCE","SBDE","SBEE","SBAC","SBBC","SBCC","SBDC","SBEC"];
+		alternative_railtype_list:	["SBAE","SBBE","SBCE","SBDE","SBEE"];
 		
 		//This track also introduces the other tracks as back up when trainsets don't introduce trains for compatible types
 		introduces_railtype_list:	["RAIL","ELRL","SAEA","SBEE","SBCA","SADD"];

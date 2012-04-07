@@ -5,7 +5,7 @@
 //Graphics here
 #include "src/Templates.pnml"	//Templates
 
-//#include "src/Betuwegraphics.pnml"		//Betuweroute graphics
+#include "src/Betuwegraphics.pnml"		//Betuweroute graphics
 
 
 #include "src/Metrographics.pnml"		//Metro graphics

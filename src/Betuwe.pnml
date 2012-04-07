@@ -68,12 +68,12 @@ item(FEAT_RAILTYPES,item_BETUWE) {
 		}
 	}
 	
-	//graphics {
+	graphics {
 		//track_overlay:	spriteset_BETUWE_overlay;
 		//underlay:			spriteset_BETUWE_underlay;
 		//tunnels:			spriteset_BETUWE_tunnel;
 		//level_crossings:  spriteset_BETUWE_levcross;
 		//bridge_surfaces:  spriteset_BETUWE_bridges;
-		//catenary_pylons:	spriteset_betuwe_catpol;
-	//}
+		catenary_pylons:	spriteset_betuwe_catpol;
+	}
 }

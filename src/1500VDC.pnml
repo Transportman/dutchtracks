@@ -61,12 +61,14 @@ item(FEAT_RAILTYPES,item_STANDARDRAIL) {
 	}	
 	
 	
-	//graphics {
+	graphics {
 		//track_overlay:	spriteset_CLASSIC_ELRL_overlay;
 		//underlay:			spriteset_CLASSIC_ELRL_underlay;
 		//tunnels:			spriteset_CLASSIC_ELRL_tunnel;
 		//level_crossings:  spriteset_CLASSIC_ELRL_levcross;
 		//depots:           spriteset_CLASSIC_ELRL_depot;
 		//bridge_surfaces:  spriteset_CLASSIC_ELRL_bridges;
-	//}
+		catenary_wire:		spriteset_1500VDC_catwire;
+		catenary_pylons:	spriteset_1500VDC_catpol;
+	}
 }

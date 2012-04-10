@@ -5,6 +5,8 @@
 //Graphics here
 #include "src/Templates.pnml"	//Templates
 
+
+#include "src/1500VDCgraphics.pnml"		//Normal rail graphics
 #include "src/Betuwegraphics.pnml"		//Betuweroute graphics
 
 

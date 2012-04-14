@@ -14,7 +14,6 @@ item(FEAT_RAILTYPES,item_FUTURISTIC) {
 		//Properties of the rail
 		compatible_railtype_list:	["RAIL","ELRL","SAEA","SBEE","SBCA","SADD","SAEA"];
 		powered_railtype_list:		["ELRL","SAEA","SBEE","SBCA","SADD","SAEA"];
-		curve_speed_multiplier:		10;
 		acceleration_model:			ACC_MODEL_RAIL;
 
 		//Costs

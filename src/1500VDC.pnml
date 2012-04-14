@@ -14,7 +14,6 @@ item(FEAT_RAILTYPES,item_STANDARDRAIL) {
 		//Properties of the rail
 		compatible_railtype_list:	["RAIL","ELRL","SAEA","SBEE","SBCA"];
 		powered_railtype_list:		["ELRL","SBEE"];
-		curve_speed_multiplier:		1;
 		acceleration_model:			ACC_MODEL_RAIL;
 
 		//Costs

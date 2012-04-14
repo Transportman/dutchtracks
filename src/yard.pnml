@@ -14,7 +14,6 @@ item(FEAT_RAILTYPES,item_YARD) {
 		//Properties of the rail
 		compatible_railtype_list:	["RAIL","SAEA","SBEE","SBCA","SADD","SAEA"];
 		powered_railtype_list:		["SAEA","SBEE","SBCA","SADD","SAEA"];
-		curve_speed_multiplier:		1;
 		acceleration_model:			ACC_MODEL_RAIL;
 
 		//Costs

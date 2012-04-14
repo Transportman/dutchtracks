@@ -1,19 +1,61 @@
 //Betuweroute track graphics file
-
 //Overlay
-
+spriteset(spriteset_betuwe_overlay,"gfx/Betuwe/Overlay-betuwe.png") {
+	template_overlay()
+}
 
 //Underlay
-
+spriteset(spriteset_betuwe_underlay,"gfx/Betuwe/Underlay-betuwe.png") {
+	template_underlay()
+}
 
 //Tunnel
-
+spriteset(spriteset_betuwe_tunnel,"gfx/Betuwe/Tunnel-betuwe.png") {
+	template_tunnel()
+}
 
 //Bridge
-
+spriteset(spriteset_betuwe_bridge,"gfx/Betuwe/Bridge-betuwe.png") {
+	template_bridge()
+}
 
 //Level Crossing
+//Closed
+spriteset(spriteset_betuwe_levcrossclosed,"gfx/Betuwe/LevelCrossing-betuwe.png") {
+	//left_x, upper_y, width, height, offset_x, offset_y
+	[  1,     1,       64,    31,       -31,          0]
+	[ 66,     1,       64,    31,       -31,          0]
+	[148,     7,       14,    15,       -11,         -9]	
+	[233,     8,       14,    15,        -2,        -10]
+	[148,     7,       14,    15,       -13,         -9]		
+	[207,     7,       13,    13,       -11,        -10]
+	[175,     6,       13,    13,         0,        -10]
+	[233,     8,       14,    15,         5,        -11]	
+	[175,     6,       13,    13,        -2,        -10]	
+	[207,     7,       13,    13,        -6,        -12]
+}
 
+//Open
+spriteset(spriteset_betuwe_levcrossopen,"gfx/Betuwe/LevelCrossing-betuwe.png") {
+	//left_x, upper_y, width, height, offset_x, offset_y
+	[  1,     1,       64,    31,       -31,          0]
+	[ 66,     1,       64,    31,       -31,          0]
+	[157,    28,        5,    15,        -2,        -11]	
+	[233,    29,        5,    15,        -2,        -12]
+	[157,    28,        5,    15,        -4,        -11]			
+	[215,    28,        5,    15,        -3,        -12]
+	[175,    27,        5,    15,         0,        -12]	
+	[233,    29,        5,    15,         5,        -13]	
+	[175,    27,        5,    15,        -2,        -12]	
+	[215,    28,        5,    15,         2,        -14]
+}
+
+//Switch
+switch(FEAT_RAILTYPES,SELF,switch_betuwe_levcross,level_crossing_status) {
+	LEVEL_CROSSING_CLOSED: spriteset_betuwe_levcrossclosed;
+	spriteset_betuwe_levcrossopen; //Default return
+}	
+	
 
 //Catenary poles
 spriteset(spriteset_betuwe_catpol,"gfx/Betuwe/CatenaryPoles-betuwe.png") {
@@ -33,7 +75,7 @@ spriteset(spriteset_betuwe_fences,"gfx/Betuwe/Fences-betuwe.png") {
     //left_x, upper_y, width, height, offset_x, offset_y
 	[      2,       0,    33,     22,      -30, 	  -8]
 	[     50,       0,    33,     22,        3, 	  -7]
-	[     98,       0,     2,     38,       -1, 	 -22]
+	[     98,       0,     2,     38,        2, 	 -24]
 	[    114,       0,    65,      6,      -30, 	  -7]
 	[    194,       0,    33,     15,      -30,  	  -9]
 	[    242,       0,    33,     15,        3,  	  -7]

@@ -98,12 +98,10 @@ Currently the following parameters are available:
 3 Known issues
 --------------
 
-Metro graphics with reserved tracks displayed:
-The 3rd rail becomes grey when the tracks are reserved by a train. This has to do with
-the way sprites are defined. OpenTTD uses a darker version of the overlay sprites to
-represent reserved tracks. In a number of sprites the overlay contains the 3rd rail.
-Therefor it is recoloured to grey when it is reserved. The same overlay sprites are
-used in junctions, so simply removing the 3rd rail is not possible.
+Grey tracks when playing with reserved tracks displayed:
+When playing with the setting to displaying reserved tracks on, some tracks might look weird when reserved.
+This has to do with the way sprites are defined. OpenTTD uses the overlay sprites for junctions, but uses a greyed/darkened
+version of the same sprites for reserved tracks. This will cause some partial grey third rail and grey tracks.
 
 Metro graphics 3rd rail doesn't connect properly:
 In some cases (the 3rd rails don't connect properly to each other. This is because
@@ -137,8 +135,8 @@ A: No reason.
 ---------
 
 Graphics:
-- Purno (Metro, 1500V DC Catenary Poles+Wires)
-- Yoshi (Betuweroute Catenary Poles and Fences)
+- Purno (Metro, 1500V DC Catenary, Level Crossing Lights)
+- Yoshi (Betuweroute Tracks/Catenary Poles/Fences)
 
 Code:
 - Transportman

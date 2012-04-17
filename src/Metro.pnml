@@ -77,7 +77,7 @@ item(FEAT_RAILTYPES,item_METRO) {
 		track_overlay:		spriteset_metro_overlay;
 		underlay:			spriteset_metro_underlay;
 		tunnels:			spriteset_metro_tunnel;
-		level_crossings:  	spriteset_metro_levcross;
+		level_crossings:  	switch_metro_levcross;
 		bridge_surfaces:  	spriteset_metro_bridge;
 	}
 }

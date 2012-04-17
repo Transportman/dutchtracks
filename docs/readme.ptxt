@@ -137,6 +137,7 @@ A: No reason.
 Graphics:
 - Purno (Metro, 1500V DC Catenary, Level Crossing Lights)
 - Yoshi (Betuweroute Tracks/Catenary Poles/Fences)
+- Transportman (Metro Level Crossing lights)
 
 Code:
 - Transportman
@@ -147,9 +148,13 @@ Translations:
 Makefile system:
 - Planetmaker
 
-Templates based on NuTracks v1.1.2 Planning Tracks
-By Oberhümer and DJ Nekkid
-
+Other Credits:
+-Templates based on NuTracks v1.1.2 Planning Tracks
+	By Oberhümer and DJ Nekkid
+-Metro Level Crossing lights based on OpenGFX signals
+	By the OpenGFX team
+	
+	
 ---------------------
 7 Contact information
 ---------------------

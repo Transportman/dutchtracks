@@ -15,7 +15,6 @@ item(FEAT_RAILTYPES,item_METRO) {
 		//compatible_railtype_list:		; //Empty
 		//powered_railtype_list:		; //Empty
 		acceleration_model:			ACC_MODEL_RAIL;
-		alternative_railtype_list:	["3RDR","MTRO"];
 		
 		//Costs
 		construction_cost:			12;
@@ -26,7 +25,7 @@ item(FEAT_RAILTYPES,item_METRO) {
 		//railtype_flags:				bitmask(); //No catanary, level crossings allowed
 		
 		//Long list with fallback types:
-		alternative_railtype_list:	["SAA3","SAB3","SAC3","SAD3","SAE3"];
+		alternative_railtype_list:	["SAA3","SAB3","SAC3","SAD3","SAE3","3RDR","MTRO"];
 	}
 
 	//Properties that depend on the parameter settings

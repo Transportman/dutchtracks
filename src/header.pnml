@@ -70,4 +70,10 @@ else {
         //requires OpenTTD version
         error(FATAL, REQUIRES_OPENTTD, "1.2.0-RC1 / r23971");
     }
+	else {
+		if (openttd_version < version_openttd(1, 2, 2, 24272)) { 
+			//warning to load the Track Set before any Train Set
+			error(NOTICE, string(STR_GRF_LOAD_ORDER));
+		}
+	}
 }

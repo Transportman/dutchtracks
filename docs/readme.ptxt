@@ -108,7 +108,7 @@ In some cases (the 3rd rails don't connect properly to each other. This is becau
 of the order OpenTTD draws the sprites. OpenTTD draws a part of the rail/tile over the
 3rd rail, creating a gap.
 
-Incorrect trains available in OpenTTD <r24272 when used in combination with other NewGRF's
+Incorrect trains available in OpenTTD <r24272
 In OpenTTD r24272 the loading of labels for tracks and engines was changed. These labels identify the tracks and
 the engines use those labels to identify on which tracks they can run. In OpenTD <r24272 the order of NewGRF's was important,
 giving small errors like trains available for the wrong tracktype. Either update OpenTTD or load the Track Set before any 

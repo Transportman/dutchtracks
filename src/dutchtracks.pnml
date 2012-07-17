@@ -8,8 +8,8 @@
 
 #include "src/1500VDCgraphics.pnml"		//Normal rail graphics
 #include "src/Betuwegraphics.pnml"		//Betuweroute graphics
-
-
+#include "src/HSLgraphics.pnml"			//HSL graphics
+#include "src/Futuregraphics.pnml"		//Futuristic graphics
 #include "src/Metrographics.pnml"		//Metro graphics
 
 //Tracktypes here
@@ -18,5 +18,5 @@
 #include "src/1500VDC.pnml"				//Normal rail in the Netherlands 160 km/h)
 #include "src/Betuwe.pnml"				//Betuwe (25kV AC 120 km/h)
 #include "src/HSL.pnml" 				//HSL (Universal) (2500kV AC 300 km/h)
-#include "src/future.pnml"				//Futuristic (Universal No speed limit)
+#include "src/Future.pnml"				//Futuristic (Universal No speed limit)
 #include "src/Metro.pnml"				//Metro (Metro, 120 km/h)

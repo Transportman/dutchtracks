@@ -66,11 +66,13 @@ item(FEAT_RAILTYPES,item_FUTURISTIC) {
 		}
 	}
 	
-	//graphics {
-		//track_overlay:	spriteset_FUTURISTIC_overlay;
-		//underlay:			spriteset_FUTURISTIC_underlay;
-		//tunnels:			spriteset_FUTURISTIC_tunnel;
-		//level_crossings:  spriteset_FUTURISTIC_levcross;
-		//bridge_surfaces:  spriteset_FUTURISTIC_bridges;
-	//}
+	graphics {
+		track_overlay:		spriteset_FUTURISTIC_overlay;
+		underlay:			spriteset_FUTURISTIC_underlay;
+		tunnels:			spriteset_FUTURISTIC_tunnel;
+		level_crossings:  	switch_FUTURISTIC_levcross;
+		bridge_surfaces:  	spriteset_FUTURISTIC_bridges;
+		catenary_wire:		spriteset_FUTURISTIC_catwire;
+		catenary_pylons:	spriteset_FUTURISTIC_catpol;
+	}
 }

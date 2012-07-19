@@ -155,13 +155,15 @@ Makefile system:
 This set uses content from the following GPL v2 NewGRFs:
 - NuTracks v1.1.2 by Oberhümer:
 Dutch Track Set / NuTracks 
+Yard/Station	/ Lowspeed tracks
 HSL				/ Highspeed tracks
 Futuristic 		/ Very highspeed tracks
 
 - OpenGFX signals by the OpenGFX team:
 Basis for Metro Level Crossing lights	
 
-- Dutch Catenary Set by Purno
+- Dutch Catenary Set by Purno:
+Catenary
 	
 ---------------------
 7 Contact information

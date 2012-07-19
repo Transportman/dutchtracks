@@ -1,0 +1,57 @@
+//Yard track graphics file
+//Overlay
+spriteset(spriteset_Yard_overlay,"gfx/Yard/Overlay-Yard.png") {
+	template_overlay()
+}
+
+//Underlay
+spriteset(spriteset_Yard_underlay,"gfx/Yard/Underlay-Yard.png") {
+	template_underlay()
+}
+
+//Tunnel
+spriteset(spriteset_Yard_tunnel,"gfx/Yard/Tunnel-Yard.png") {
+	template_tunnel()
+}
+
+//Bridge
+spriteset(spriteset_Yard_bridges,"gfx/Yard/Bridge-Yard.png") {
+	template_bridge()
+}
+
+//Level Crossing
+//Closed
+spriteset(spriteset_Yard_levcrossclosed,"gfx/Yard/LevelCrossing-Yard.png") {
+	//left_x, upper_y, width, height, offset_x, offset_y
+	[   1,    1,       64,    31,     -31,           0]
+	[  66,    1,       64,    31,     -31,           0]
+	[ 140,    1,       5,    16,        0,         -11]
+	[ 217,    1,       5,    16,       -5,          -9]
+	[ 140,    1,       5,    16,       -8,         -14]
+	[ 217,    1,       5,    16,       -8,         -10]
+	[ 140,    1,       5,    16,        6,         -14]
+	[ 217,    1,       5,    16,        5,         -14]
+	[ 140,    1,       5,    16,       -5,         -17]
+	[ 217,    1,       5,    16,        0,         -14]
+}
+
+//Open
+spriteset(spriteset_Yard_levcrossopen,"gfx/Yard/LevelCrossing-Yard.png") {
+	//left_x, upper_y, width, height, offset_x, offset_y
+	[  1,     1,       64,    31,     -31,          0]
+	[ 66,     1,       64,    31,     -31,          0]
+	[ 140,   22,       5,    16,        0,        -11]
+	[ 217,   22,       5,    16,       -5,         -9]
+	[ 140,   22,       5,    16,       -8,        -14]
+	[ 217,   22,       5,    16,       -8,        -10]
+	[ 140,   22,       5,    16,        6,        -11]
+	[ 217,   22,       5,    16,        5,        -14]
+	[ 140,   22,       5,    16,       -5,        -17]
+	[ 217,   22,       5,    16,        0,        -14]
+}
+
+//Switch
+switch(FEAT_RAILTYPES,SELF,switch_Yard_levcross,level_crossing_status) {
+	LEVEL_CROSSING_CLOSED: spriteset_Yard_levcrossclosed;
+	spriteset_Yard_levcrossopen; //Default return
+}

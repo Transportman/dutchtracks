@@ -61,11 +61,11 @@ item(FEAT_RAILTYPES,item_YARD) {
 	}	
 	
 	
-	//graphics {
-		//track_overlay:	spriteset_YARD_overlay;
-		//underlay:			spriteset_YARD_underlay;
-		//tunnels:			spriteset_YARD_tunnel;
-		//level_crossings:  spriteset_YARD_levcross;     
-		//bridge_surfaces:  spriteset_YARD_bridges;
-	//}
+	graphics {
+		track_overlay:		spriteset_Yard_overlay;
+		underlay:			spriteset_Yard_underlay;
+		tunnels:			spriteset_Yard_tunnel;
+		level_crossings:  	switch_Yard_levcross;     
+		bridge_surfaces:  	spriteset_Yard_bridges;
+	}
 }

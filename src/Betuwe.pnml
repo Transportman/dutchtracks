@@ -25,7 +25,10 @@ item(FEAT_RAILTYPES,item_BETUWE) {
 		railtype_flags:				bitmask(RAILTYPE_FLAG_CATENARY);
 		
 		//Long list with fallback types:
-		alternative_railtype_list:	["SAAA","SABA","SACA","SADA","SAEA"];			
+		alternative_railtype_list:	["SAAA","SABA","SACA","SADA","SAEA"];
+
+		//Also introduces Yard Rail
+		introduces_railtype_list:   ["ELRL"];
 	}
 	
 	//Properties that depend on the parameter settings

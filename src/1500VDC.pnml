@@ -25,7 +25,10 @@ item(FEAT_RAILTYPES,item_STANDARDRAIL) {
 		railtype_flags:				bitmask(RAILTYPE_FLAG_CATENARY);
 		
 		//Long list with fallback types:
-		alternative_railtype_list:	["SAAD","SABD","SACD","SADD","SAED"];		
+		alternative_railtype_list:	["SAAD","SABD","SACD","SADD","SAED"];
+
+		//Also introduces Yard Rail
+		introduces_railtype_list:   ["ELRL"];		
 	}
 
 	//Properties that depend on the parameter settings

@@ -3,6 +3,7 @@ item(FEAT_RAILTYPES,item_FUTURISTIC) {
 	property {
 		//Naming
 		label:						"SBEE";
+		introduction_date:			date(2050,01,01);
 		name:						string(STR_NAME_FUTURISTIC);
 		toolbar_caption:			string(STR_TOOL_FUTURISTIC);
 		menu_text:					string(STR_MENU_FUTURISTIC);
@@ -26,9 +27,6 @@ item(FEAT_RAILTYPES,item_FUTURISTIC) {
 		
 		//Long list with fallback types:
 		alternative_railtype_list:	["SBAE","SBBE","SBCE","SBDE","SBEE"];
-		
-		//This track also introduces the other tracks as back up when trainsets don't introduce trains for compatible types
-		introduces_railtype_list:	["RAIL","ELRL","SAEA","SBEE","SBCA","SADD"];
 	}
 
 	//Track Compatibility
@@ -53,19 +51,7 @@ item(FEAT_RAILTYPES,item_FUTURISTIC) {
 			railtype_flags:			bitmask(RAILTYPE_FLAG_CATENARY,RAILTYPE_FLAG_NO_LEVEL_CROSSING);
 		}
 	}	
-	
-	//Early introduction override (this part guarantees that all tracks become available at some point
-	if (param_early_intro == 0) {
-		property {
-			introduction_date: 	date(2050,01,01);
-		}
-	}	
-	if (param_early_intro == 1) {
-		property {
-			introduction_date:	date(1800,01,01);
-		}
-	}
-	
+		
 	graphics {
 		track_overlay:		spriteset_FUTURISTIC_overlay;
 		underlay:			spriteset_FUTURISTIC_underlay;

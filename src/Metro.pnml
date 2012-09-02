@@ -49,7 +49,7 @@ item(FEAT_RAILTYPES,item_METRO) {
 	if (param_track_compat == 2) {
 		property {
 			compatible_railtype_list:	["RAIL","ELRL","SAEA","SBEE","SBCA","SADD","SAA3"];
-			powered_railtype_list:		["ELRL","SAEA","SBEE","SBCA","SADD","SAA3"];
+			powered_railtype_list:		["ELRL","SAEA","SBEE","SBCA","SADD","SAA3"];			
 		}
 	}	
 
@@ -59,18 +59,6 @@ item(FEAT_RAILTYPES,item_METRO) {
 			railtype_flags:			bitmask(RAILTYPE_FLAG_NO_LEVEL_CROSSING);
 		}
 	}	
-
-	//Early introduction override (this part guarantees that all tracks become available at some point	
-	if (param_early_intro == 0) {
-		property {
-			introduction_date: 	date(2050,01,01);
-		}
-	}	
-	if (param_early_intro == 1) {
-		property {
-			introduction_date:	date(1800,01,01);
-		}
-	}
 	
 	graphics {
 		track_overlay:		spriteset_metro_overlay;

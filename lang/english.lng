@@ -25,10 +25,6 @@ STR_PARAM_DESC_LEVCROSS_HIGH	:Use this parameter to enable/disable level crossin
 STR_PARAM_NAME_LEVCROSS_METRO	:Level crossings for Metro
 STR_PARAM_DESC_LEVCROSS_METRO	:Use this parameter to enable/disable level crossings for Metro tracks
 
-# Early Track Introduction
-STR_PARAM_NAME_EARLY_INTRO		:Early introduction
-STR_PARAM_DESC_EARLY_INTRO		:Turning this parameter on will make all tracks available in 1800. When off, tracks get introduced when a train is available for that tracktype or in 2050, whichever comes first
-
 # Rail descriptions
 
 # Unelectrified Rail
@@ -45,7 +41,7 @@ STR_TOOL_YARD	:Yard/Station [Universal]
 STR_MENU_YARD	:Yard/Station [Universal]
 STR_BUIL_YARD	:Yard/Station [Universal]
 STR_REPL_YARD	:Electrical (Yard/Station)
-STR_NENG_YARD	:Electrical (Yard/Station) Engine
+STR_NENG_YARD	:Electrical (Multisystem) Engine
 
 # Electrified [1500V DC]
 STR_NAME_STANDARDRAIL	:Standard Rail [1500V DC]

@@ -53,6 +53,7 @@ item(FEAT_RAILTYPES,item_HSL) {
 		property {
 			compatible_railtype_list:	["RAIL","ELRL","SAEA","SBEE","SBCA","SADD"];
 			powered_railtype_list:		["ELRL","SAEA","SBEE","SBCA","SADD"];
+			introduces_railtype_list:   ["SAEA","SADD","ELRL"];
 		}	
 	}
 	//Full compatibility (Non electrfied, electrified)
@@ -60,6 +61,7 @@ item(FEAT_RAILTYPES,item_HSL) {
 		property {
 			compatible_railtype_list:	["RAIL","ELRL","SAEA","SBEE","SBCA","SADD","SAA3"];
 			powered_railtype_list:		["ELRL","SAEA","SBEE","SBCA","SADD","SAA3"];
+			introduces_railtype_list:   ["SAEA","SADD","ELRL","SAA3"];
 		}
 	}	
 	

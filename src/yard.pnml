@@ -25,7 +25,14 @@ item(FEAT_RAILTYPES,item_YARD) {
 		railtype_flags:				bitmask(RAILTYPE_FLAG_CATENARY);
 		
 		//Long list with fallback types:
-		alternative_railtype_list:	["SAAE","SABE","SACE","SADE","SAEE"];	
+		alternative_railtype_list:	["SAAE","SABE","SACE","SADE","SAEE"];
+
+		//Also introduces 1500V DC and 25kV AC tracks, since this is a multisystem track
+		introduces_railtype_list:   ["SAEA","SBCA","SADD"];
+		
+		//The track should be available when there are both DC and AC trains, but not when only one of them is available, because that would introduce all tracks
+		introduction_date:			date(1800,01,01);
+		requires_railtype_list:		["SAEA", "SBCA","SADD"];
 	}
 	
 	//Properties that depend on the parameter settings

@@ -26,6 +26,9 @@ item(FEAT_RAILTYPES,item_BETUWE) {
 		
 		//Long list with fallback types:
 		alternative_railtype_list:	["SAAA","SABA","SACA","SADA","SAEA"];
+		
+		//HSL and Betuweroute are the same power system, so both introduce each other
+		introduces_railtype_list:   ["SBCA"];
 	}
 	
 	//Properties that depend on the parameter settings

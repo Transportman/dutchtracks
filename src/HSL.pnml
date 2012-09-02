@@ -25,7 +25,10 @@ item(FEAT_RAILTYPES,item_HSL) {
 		railtype_flags:				bitmask(RAILTYPE_FLAG_CATENARY);
 		
 		//Long list with fallback types:
-		alternative_railtype_list:	["SBAA","SBBA","SBCA","SBDA","SBEA"];		
+		alternative_railtype_list:	["SBAA","SBBA","SBCA","SBDA","SBEA"];
+
+		//HSL and Betuweroute are the same power system, so both introduce each other
+		introduces_railtype_list:   ["SAEA"];		
 	}
 	
 	//Properties that depend on the parameter settings

@@ -25,10 +25,7 @@ item(FEAT_RAILTYPES,item_HSL) {
 		railtype_flags:				bitmask(RAILTYPE_FLAG_CATENARY);
 		
 		//Long list with fallback types:
-		alternative_railtype_list:	["SBAA","SBBA","SBCA","SBDA","SBEA"];
-
-		//Also introduces Yard Rail
-		introduces_railtype_list:   ["ELRL"];		
+		alternative_railtype_list:	["SBAA","SBBA","SBCA","SBDA","SBEA"];		
 	}
 	
 	//Properties that depend on the parameter settings

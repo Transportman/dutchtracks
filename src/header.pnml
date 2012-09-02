@@ -4,7 +4,7 @@ grf {
 	name:	string(STR_GRF_NAME);
 	desc:	string(STR_GRF_DESCRIPTION);
 	version:		REPO_REVISION;
-	min_compatible_version:	43;
+	min_compatible_version:	94;
 	
 	//parameters go below here
 	param 1 { //parameter to disable speedlimits

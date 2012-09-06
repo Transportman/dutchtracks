@@ -5,6 +5,7 @@
 */
 
 //Betuweroute track graphics file
+
 //Overlay
 spriteset(spriteset_betuwe_overlay,"gfx/Betuwe/Overlay-betuwe.png") {
 	template_overlay()

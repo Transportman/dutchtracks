@@ -5,6 +5,7 @@
 */
 
 //Yard track graphics file
+
 //Overlay
 spriteset(spriteset_Yard_overlay,"gfx/Yard/Overlay-yard.png") {
 	template_overlay()

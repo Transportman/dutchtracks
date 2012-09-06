@@ -31,7 +31,8 @@ This NewGRF adds Dutch tracks to OpenTTD.
 1 About
 -------
 
-<one or two paragraphs what this grf is about, what it contains and what it does>
+This NewGRF adds tracks to OpenTTD, based on the systems used in The Netherlands. It contains all major tracktypes, including a futuristic one.
+It is designed to work with the Dutch Train Set (v2), but will also work for other train sets that follow the used labeling scheme.
 
 {{GRF_TITLE}}
 MD5Hash:  {{GRF_MD5}}
@@ -55,14 +56,13 @@ GRF ID:   {{GRF_ID}}
 
 OpenTTD:
   see http://wiki.openttd.org/NewGRF
-  This NewGRF is not yet available from the ingame Online Content
+  The latest release will be available through the Online Content Service
 
 
 2.3 Parameter settings
 ----------------------
 
-Set the parameters before starting a new game. Once started they 
-cannot be changed any longer.
+Set the parameters before starting a new game. Once started they cannot be changed any longer.
 
 Currently the following parameters are available:
 	-Speed limits: Can be set on or off. Default value is on.
@@ -72,20 +72,15 @@ Currently the following parameters are available:
 					
 	-Track types: Has 3 possible values.
 			This parameter sets the different main track types
-				0: 4 main types: Non electrified, DC, AC and Metro (Default)
-				1: 3 main types: Non electrified, electrified and Metro (No AC/DC distinction)
-				2: 2 main types: Non electrified and electrified (No AC/DC/Metro distinction)
+				0: 4 main types: Non-electrified, DC, AC and Metro (Default)
+				1: 3 main types: Non-electrified, electrified and Metro (No AC/DC distinction)
+				2: 2 main types: Non-electrified and electrified (No AC/DC/Metro distinction)
 	
 	-Level crossings for X:	Can be set on or off. Default value for Metro is on, for HSL/Betuwe/Futuristic is off.
 			These parameters allows you to enable/disable level crossings for these two track groups.
 				On: Level crossings can be build
-				Off: Level crossings can not be build
-				
-	-Early introduction: Can be set on or off. Default value is off.
-			This parameter allows you to make all tracks available in 1800, instead of waiting until the trainset introduces them or the year 2050 passes
-				On: All tracks become available in 1800.
-				Off: Tracks become available when a matching train is introduced or in 2050, whichever comes first.
-		
+				Off: Level crossings cannot be build
+						
 
 2.4 Usage
 ---------
@@ -114,6 +109,11 @@ the engines use those labels to identify on which tracks they can run. In OpenTD
 giving small errors like trains available for the wrong tracktype. Either update OpenTTD or load the Track Set before any 
 Train set.
 
+Strange introduction dates of the tracks
+Due to the way track introductions are done in NewGRFs, it is not possible to have an advanced scheme that would work perfectly.
+Therefore, it was choosen to make sure all tracks that should become available become available during the game, although it might
+happen that this is several years before their real introduction. See issues #4113 and #4114 on the bug tracker and
+http://www.tt-forums.net/viewtopic.php?f=68&t=62382
 
 ------------------------
 4 Background information

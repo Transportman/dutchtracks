@@ -1,0 +1,84 @@
+﻿##grflangid 0x1F
+
+#Main grf title and description
+STR_GRF_NAME			:{TITLE}
+STR_GRF_DESCRIPTION		:Nederlandse sporen voor OpenTTD {}(c)Dutch Trackset Team {}Licentie: GPLv2 of hoger. {}Zie de Readme voor meer informatie.
+STR_GRF_LOAD_ORDER		:Laad deze NewGRF voor alle treinsets voor een correcte werking (OpenTTD < r24272)
+
+# Parameter descriptions
+# Rail speed
+STR_PARAM_NAME_SPEED	:Snelheidslimieten
+STR_PARAM_DESC_SPEED	:Gebruik deze parameter om snelheidslimiten uit te schakelen.
+
+# Track compatibility
+STR_PARAM_NAME_TRACK_COMPAT		:Spoorcompabiliteit
+STR_PARAM_DESC_TRACK_COMPAT		:Gebruik deze parameter om de compabiliteit van sporen in te stellen
+STR_PARAM_TRACK_COMPAT_DEF		:Ongeëlectrificeerd, AC, DC, Metro (Standaard)
+STR_PARAM_TRACK_COMPAT_POW		:Ongeëlectrificeerd, geelectrificeerd, Metro (Geen onderscheid AC/DC)
+STR_PARAM_TRACK_COMPAT_FULL		:Ongeëlectrificeerd, geelectrificeerd (Geen onderscheid AC/DC/Metro)
+
+# Level Crossing Highspeed
+STR_PARAM_NAME_LEVCROSS_HIGH	:Spoorwegovergangen Betuwe/HSL/Futuristisch
+STR_PARAM_DESC_LEVCROSS_HIGH	:Gebruik deze parameter om spoorwegovergangen toe te staan voor deze sporen
+
+# Level Crossing Metro
+STR_PARAM_NAME_LEVCROSS_METRO	:Spoorwegovergangen Metro
+STR_PARAM_DESC_LEVCROSS_METRO	:Gebruik deze parameter om spoorwegovergangen voor Metro toe te staan
+
+# Rail descriptions
+
+# Unelectrified Rail
+STR_NAME_RAIL	:Ongeëlectrificeerd Spoor
+STR_TOOL_RAIL	:Ongeëlectrificeerd Spoor
+STR_MENU_RAIL	:Ongeëlectrificeerd Spoor
+STR_BUIL_RAIL	:Ongeëlectrificeerd Spoor
+STR_REPL_RAIL	:Ongeëlectrificeerd
+STR_NENG_RAIL	:Ongeëlectrificeerd Voertuig
+
+# YARD Rail
+STR_NAME_YARD	:Rangeer/Station [Universeel]
+STR_TOOL_YARD	:Rangeer/Station [Universeel]
+STR_MENU_YARD	:Rangeer/Station [Universeel]
+STR_BUIL_YARD	:Rangeer/Station [Universeel]
+STR_REPL_YARD	:Electrisch (Rangeer/Station)
+STR_NENG_YARD	:Electrisch (Multivoltage) Voertuig
+
+# Electrified [1500V DC]
+STR_NAME_STANDARDRAIL	:Standaard Spoor[1500V DC]
+STR_TOOL_STANDARDRAIL	:Standaard Spoor[1500V DC]
+STR_MENU_STANDARDRAIL	:Standaard Spoor[1500V DC]
+STR_BUIL_STANDARDRAIL	:Standaard Spoor[1500V DC]
+STR_REPL_STANDARDRAIL	:1500V DC (Standaard Spoor)
+STR_NENG_STANDARDRAIL	:1500V DC Voertuig
+
+# Betuweroute [25kV AC]
+STR_NAME_BETUWE	:Betuweroute [25kV AC]
+STR_TOOL_BETUWE	:Betuweroute [25kV AC]
+STR_MENU_BETUWE	:Betuweroute [25kV AC]
+STR_BUIL_BETUWE	:Betuweroute [25kV AC]
+STR_REPL_BETUWE	:25kV AC (Betuweroute)
+STR_NENG_BETUWE	:25kV AC (Betuweroute) Voertuig
+
+# Metro
+STR_NAME_METRO	:Metro
+STR_TOOL_METRO	:Metro
+STR_MENU_METRO	:Metro
+STR_BUIL_METRO	:Metro
+STR_REPL_METRO	:Metro
+STR_NENG_METRO	:Metro Voertuig
+
+# HSL [25kV AC]
+STR_NAME_HSL	:HSL [25kV AC]
+STR_TOOL_HSL	:HSL [25kV AC]
+STR_MENU_HSL	:HSL [25kV AC]
+STR_BUIL_HSL	:HSL [25kV AC]
+STR_REPL_HSL	:25kV AC (HSL)
+STR_NENG_HSL	:25kV AC (HSL) Voertuig
+
+# Futuristic [Universal]
+STR_NAME_FUTURISTIC	:Futuristisch [Universeel]
+STR_TOOL_FUTURISTIC	:Futuristisch [Universeel]
+STR_MENU_FUTURISTIC	:Futuristisch [Universeel]
+STR_BUIL_FUTURISTIC	:Futuristisch [Universeel]
+STR_REPL_FUTURISTIC	:Electrisch (Futuristisch)
+STR_NENG_FUTURISTIC	:Electrisch (Multivoltage) Voertuig

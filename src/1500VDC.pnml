@@ -77,5 +77,6 @@ item(FEAT_RAILTYPES,item_STANDARDRAIL) {
 		//bridge_surfaces:  spriteset_CLASSIC_ELRL_bridges;
 		catenary_wire:		spriteset_1500VDC_catwire;
 		catenary_pylons:	spriteset_1500VDC_catpol;
+		fences:				switch_1500VDC_fences;
 	}
 }

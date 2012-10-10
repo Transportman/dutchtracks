@@ -78,6 +78,7 @@ spriteset(spriteset_betuwe_catpol,"gfx/Betuwe/CatenaryPoles-betuwe.png") {
 }
 
 //Fences
+//DUTCHTRACK
 spriteset(spriteset_betuwe_fences,"gfx/Betuwe/Fences-betuwe.png") {
     //left_x, upper_y, width, height, offset_x, offset_y
 	[      2,       0,    33,     22,      -30, 	  -8]
@@ -89,3 +90,9 @@ spriteset(spriteset_betuwe_fences,"gfx/Betuwe/Fences-betuwe.png") {
 	[    290,       0,    33,     31, 	   -30,  	 -17]
 	[    338,       0,    33,     31,        3, 	 -16]
 }
+
+switch(FEAT_RAILTYPES,SELF,switch_betuwe_fences,param_fences) {
+	0: spriteset_betuwe_fences;
+	2: spriteset_nofences;
+	CB_FAILED;
+}	

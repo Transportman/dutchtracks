@@ -111,3 +111,9 @@ spriteset(spriteset_HSL_catwire,"gfx/HSL/CatenaryWires-HSL.png") {
 	[    417,       49,   16,     14,      -13, 	  -8]
 	[    449,       49,   16,     11,       15, 	   3]		
 }
+
+switch(FEAT_RAILTYPES,SELF,switch_HSL_fences,param_fences) {
+	//0: spriteset_HSL_fences;
+	2: spriteset_nofences;
+	CB_FAILED;
+}	

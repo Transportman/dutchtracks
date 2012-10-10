@@ -25,6 +25,14 @@ STR_PARAM_DESC_LEVCROSS_HIGH	:Use this parameter to enable/disable level crossin
 STR_PARAM_NAME_LEVCROSS_METRO	:Level crossings for Metro
 STR_PARAM_DESC_LEVCROSS_METRO	:Use this parameter to enable/disable level crossings for Metro tracks
 
+# Fences
+STR_PARAM_NAME_FENCES			:Fences
+STR_PARAM_DESC_FENCES			:Use this parameter to set the fences used (Dutch tracks fences, OTTD fences or no fences)
+STR_PARAM_FENCES_DUTCH			:Dutch Track fences (if available)
+STR_PARAM_FENCES_OTTD			:OTTD fences
+STR_PARAM_FENCES_NONE			:No fences
+
+
 # Rail descriptions
 
 # Unelectrified Rail

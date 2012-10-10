@@ -67,12 +67,13 @@ item(FEAT_RAILTYPES,item_RAIL) {
 	}	
 	
 	
-	//graphics {
+	graphics {
 		//track_overlay:	spriteset_RAIL_overlay;
 		//underlay:			spriteset_RAIL_underlay;
 		//tunnels:			spriteset_RAIL_tunnel;
 		//level_crossings:  spriteset_RAIL_levcross;
 		//depots:           spriteset_RAIL_depot;
 		//bridge_surfaces:  spriteset_RAIL_bridges;
-	//}
+		fences:				switch_RAIL_fences;
+	}
 }

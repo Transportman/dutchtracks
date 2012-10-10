@@ -65,3 +65,9 @@ spriteset(spriteset_1500VDC_catwire,"gfx/1500VDC/CatenaryWires-1500VDC.png") {
 	[    417,       49,   16,     14,      -13, 	  -8]
 	[    449,       49,   16,     11,       15, 	   3]		
 }
+
+switch(FEAT_RAILTYPES,SELF,switch_1500VDC_fences,param_fences) {
+	//0: spriteset_1500VDC_fences;
+	2: spriteset_nofences;
+	CB_FAILED;
+}	

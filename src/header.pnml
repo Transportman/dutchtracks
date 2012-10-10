@@ -54,6 +54,21 @@ grf {
 			def_value:	1;
 		}
 	}
+	
+	param 5 { //parameter to disable Dutchtrack/OTTD fences (issue #4234)
+		param_fences {
+			name: string(STR_PARAM_NAME_FENCES);
+			desc: string(STR_PARAM_DESC_FENCES);
+			min_value:	0;
+			max_value:	2;
+			def_value:  0;
+			names: {
+				0: string(STR_PARAM_FENCES_DUTCH);
+				1: string(STR_PARAM_FENCES_OTTD);
+				2: string(STR_PARAM_FENCES_NONE);
+			};
+		}
+	}	
 }
 
 //check for OpenTTD and version

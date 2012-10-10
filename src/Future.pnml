@@ -66,5 +66,6 @@ item(FEAT_RAILTYPES,item_FUTURISTIC) {
 		bridge_surfaces:  	spriteset_FUTURISTIC_bridges;
 		catenary_wire:		spriteset_FUTURISTIC_catwire;
 		catenary_pylons:	spriteset_FUTURISTIC_catpol;
+		fences:				switch_FUTURISTIC_fences;
 	}
 }

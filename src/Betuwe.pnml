@@ -85,6 +85,6 @@ item(FEAT_RAILTYPES,item_BETUWE) {
 		level_crossings:  	switch_betuwe_levcross;
 		bridge_surfaces:  	spriteset_betuwe_bridge;
 		catenary_pylons:	spriteset_betuwe_catpol;
-		fences:				spriteset_betuwe_fences;
+		fences:				switch_betuwe_fences;
 	}
 }

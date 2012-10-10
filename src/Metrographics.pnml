@@ -62,3 +62,9 @@ switch(FEAT_RAILTYPES,SELF,switch_metro_levcross,level_crossing_status) {
 	LEVEL_CROSSING_CLOSED: spriteset_metro_levcrossclosed;
 	spriteset_metro_levcrossopen; //Default return
 }	
+
+switch(FEAT_RAILTYPES,SELF,switch_metro_fences,param_fences) {
+	//0: spriteset_metro_fences;
+	2: spriteset_nofences;
+	CB_FAILED;
+}	

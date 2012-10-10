@@ -73,5 +73,6 @@ item(FEAT_RAILTYPES,item_METRO) {
 		tunnels:			spriteset_metro_tunnel;
 		level_crossings:  	switch_metro_levcross;
 		bridge_surfaces:  	spriteset_metro_bridge;
+		fences:				switch_metro_fences;
 	}
 }

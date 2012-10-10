@@ -62,3 +62,9 @@ switch(FEAT_RAILTYPES,SELF,switch_Yard_levcross,level_crossing_status) {
 	LEVEL_CROSSING_CLOSED: spriteset_Yard_levcrossclosed;
 	spriteset_Yard_levcrossopen; //Default return
 }
+
+switch(FEAT_RAILTYPES,SELF,switch_Yard_fences,param_fences) {
+	//0: spriteset_Yard_fences;
+	2: spriteset_nofences;
+	CB_FAILED;
+}	

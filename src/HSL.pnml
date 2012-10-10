@@ -86,5 +86,6 @@ item(FEAT_RAILTYPES,item_HSL) {
 		bridge_surfaces:  	spriteset_HSL_bridges;
 		catenary_wire:		spriteset_HSL_catwire;
 		catenary_pylons:	spriteset_HSL_catpol;
+		fences:				switch_HSL_fences;
 	}
 }

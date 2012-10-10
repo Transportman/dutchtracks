@@ -111,3 +111,9 @@ spriteset(spriteset_FUTURISTIC_catwire,"gfx/Futuristic/CatenaryWires-futuristic.
 	[    417,       49,   16,     14,      -13, 	  -8]
 	[    449,       49,   16,     11,       15, 	   3]		
 }
+
+switch(FEAT_RAILTYPES,SELF,switch_FUTURISTIC_fences,param_fences) {
+	//0: spriteset_FUTURISTIC_fences;
+	2: spriteset_nofences;
+	CB_FAILED;
+}	

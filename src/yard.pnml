@@ -80,5 +80,6 @@ item(FEAT_RAILTYPES,item_YARD) {
 		tunnels:			spriteset_Yard_tunnel;
 		level_crossings:  	switch_Yard_levcross;     
 		bridge_surfaces:  	spriteset_Yard_bridges;
+		fences:				switch_Yard_fences;
 	}
 }

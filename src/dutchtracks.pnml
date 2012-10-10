@@ -11,7 +11,7 @@
 //Graphics here
 #include "src/Templates.pnml"			//Templates
 #include "src/Yardgraphics.pnml"		//Yard graphics
-
+#include "src/railgraphics.pnml"
 #include "src/1500VDCgraphics.pnml"		//Normal rail graphics
 #include "src/Betuwegraphics.pnml"		//Betuweroute graphics
 #include "src/HSLgraphics.pnml"			//HSL graphics

@@ -12,7 +12,7 @@ STR_PARAM_DESC_SPEED	:Gebruik deze parameter om snelheidslimiten uit te schakele
 
 # Track compatibility
 STR_PARAM_NAME_TRACK_COMPAT		:Spoorcompabiliteit
-STR_PARAM_DESC_TRACK_COMPAT		:Gebruik deze parameter om de compabiliteit van sporen in te stellen
+STR_PARAM_DESC_TRACK_COMPAT		:Gebruik deze parameter om de compabiliteit van sporen in te stellen. Gebruik deze optie indien er geen treinset geladen is! Dit heeft geen invloed op het vermogen van voertuigen als deze afhangt van het spoorsoort, aangezien treinsets het vermogen bepalen.
 STR_PARAM_TRACK_COMPAT_DEF		:Ongeëlectrificeerd, AC, DC, Metro (Standaard)
 STR_PARAM_TRACK_COMPAT_POW		:Ongeëlectrificeerd, geelectrificeerd, Metro (Geen onderscheid AC/DC)
 STR_PARAM_TRACK_COMPAT_FULL		:Ongeëlectrificeerd, geelectrificeerd (Geen onderscheid AC/DC/Metro)

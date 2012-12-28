@@ -12,7 +12,7 @@ STR_PARAM_DESC_SPEED	:Use this parameter to turn off speed limits.
 
 # Track compatibility
 STR_PARAM_NAME_TRACK_COMPAT		:Track compatibility
-STR_PARAM_DESC_TRACK_COMPAT		:Use this parameter to switch between different track compatibility lists. Use this when you have no compatible train set loaded!
+STR_PARAM_DESC_TRACK_COMPAT		:Use this parameter to switch between different track compatibility lists. Use this when you have no compatible train set loaded! This does not influence the engine power if it depends on the tracktype, since this is controlled by train sets.
 STR_PARAM_TRACK_COMPAT_DEF		:Non electrified, DC, AC, Metro (Default)
 STR_PARAM_TRACK_COMPAT_POW		:Non electrified, electrified, Metro (No distinction AC/DC)
 STR_PARAM_TRACK_COMPAT_FULL		:Non electrified, electrified (No distinction AC/DC/Metro)

@@ -1,0 +1,95 @@
+##grflangid 0x38
+##plural 6
+##gender male female middle
+##case aku dat gen ins lok nom vok
+
+#Main grf title and description
+STR_GRF_NAME   :{TITLE}
+STR_GRF_DESCRIPTION  :Nizozemske pruge za OTTD{}(c)Dutch Trackset Tim{}Licenca: GPLv2 ili viša.{}Pogledajte readme za detalje.
+STR_GRF_LOAD_ORDER  :Učitajte ovaj NewGRF prije bilo kojeg seta vlakova kako bi pravilo radio (OpenTTD < r24272)
+
+# Parameter descriptions
+# Rail speed
+STR_PARAM_NAME_SPEED :Ograničenja brzine
+STR_PARAM_DESC_SPEED :Koristite ovaj parametar za isključivanje ograničenja brzine.
+
+# Track compatibility
+STR_PARAM_NAME_TRACK_COMPAT  :Kompatibilnost pruga
+STR_PARAM_DESC_TRACK_COMPAT  :Koristite ovaj parametar za promjenu između različitih kompatibilnih lista pruge. Koristite kada nemate učitan kompatibilni set vlakova. Ne utječe na snagu vozila ako ovise o vrsti pruge jer je to kontrolirano od strane samog seta vlakova.
+STR_PARAM_TRACK_COMPAT_DEF  :Neelektrificirana, DC, AC, metro (osnovna postavka)
+STR_PARAM_TRACK_COMPAT_POW  :Neelektrificirana, elektrificirana, metro (bez razlike AC/DC)
+STR_PARAM_TRACK_COMPAT_FULL  :Neelektrificirana, elektrificirana (bez razlike AC/DC/metro)
+
+# Level Crossing Highspeed
+STR_PARAM_NAME_LEVCROSS_HIGH :Pružni prijelazi za pruge visokih brzina/loše/futurističke pruge
+STR_PARAM_DESC_LEVCROSS_HIGH :Koristite ovaj parametar za uključivanje/isključivanje pružnih prijelaza za pruge visokih brzina/loše/futurističke pruge
+
+# Level Crossing Metro
+STR_PARAM_NAME_LEVCROSS_METRO :Pružni prijelazi za metro
+STR_PARAM_DESC_LEVCROSS_METRO :Koristite ovaj parametar za uključivanje/isključivanje pružnih prijelaza za metro pruge
+
+# Fences
+STR_PARAM_NAME_FENCES   :Ograde
+STR_PARAM_DESC_FENCES   :Koristite ovaj parametar za odabir ograda koje će se koristiti (Nizozemske ograde, OTTD ograde ili bez ograda)
+STR_PARAM_FENCES_DUTCH   :Nizozemske ograde (ako je dostupno)
+STR_PARAM_FENCES_OTTD   :OTTD ograde
+STR_PARAM_FENCES_NONE   :Bez ograda
+
+
+# Rail descriptions
+
+# Unelectrified Rail
+STR_NAME_RAIL :Neelektrificirana pruga
+STR_TOOL_RAIL :Neelektrificirana pruga
+STR_MENU_RAIL :Neelektrificirana pruga
+STR_BUIL_RAIL :Neelektrificirana pruga
+STR_REPL_RAIL :Neelektrificirana
+STR_NENG_RAIL :Neelektrificirana lokomotiva
+
+# YARD Rail
+STR_NAME_YARD :Dvorište/stanica [univerzalno]
+STR_TOOL_YARD :Dvorište/stanica [univerzalno]
+STR_MENU_YARD :Dvorište/stanica [univerzalno]
+STR_BUIL_YARD :Dvorište/stanica [univerzalno]
+STR_REPL_YARD :Električno (dvorište/stanica)
+STR_NENG_YARD :Električna (višesistemska) lokomotiva
+
+# Electrified [1500V DC]
+STR_NAME_STANDARDRAIL :Standardna pruga [1500V DC]
+STR_TOOL_STANDARDRAIL :Standardna pruga [1500V DC]
+STR_MENU_STANDARDRAIL :Standardna pruga [1500V DC]
+STR_BUIL_STANDARDRAIL :Standardna pruga [1500V DC]
+STR_REPL_STANDARDRAIL :1500V DC (standardna pruga)
+STR_NENG_STANDARDRAIL :1500V DC lokomotiva
+
+# Betuweroute [25kV AC]
+STR_NAME_BETUWE :Loša pruga [25kV AC]
+STR_TOOL_BETUWE :Loša pruga [25kV AC]
+STR_MENU_BETUWE :Loša pruga [25kV AC]
+STR_BUIL_BETUWE :Loša pruga [25kV AC]
+STR_REPL_BETUWE :25kV AC (loša pruga)
+STR_NENG_BETUWE :25kV AC (loša pruga) lokomotiva
+
+# Metro
+STR_NAME_METRO :Metro
+STR_TOOL_METRO :Metro
+STR_MENU_METRO :Metro
+STR_BUIL_METRO :Metro
+STR_REPL_METRO :Metro
+STR_NENG_METRO :Metro lokomotiva
+
+# HSL [25kV AC]
+STR_NAME_HSL :Pruga visokih brzina [25kV AC]
+STR_TOOL_HSL :Pruga visokih brzina [25kV AC]
+STR_MENU_HSL :HSL [25kV AC]
+STR_BUIL_HSL :Pruga visokih brzina [25kV AC]
+STR_REPL_HSL :25kV AC (pruga visokih brzina)
+STR_NENG_HSL :25kV AC (pruga visokih brzina) lokomotiva
+
+# Futuristic [Universal]
+STR_NAME_FUTURISTIC :Futuristička [univerzalno]
+STR_TOOL_FUTURISTIC :Futuristička [univerzalno]
+STR_MENU_FUTURISTIC :Futuristička [univerzalno]
+STR_BUIL_FUTURISTIC :Futuristička [univerzalno]
+STR_REPL_FUTURISTIC :Električni (futuristički)
+STR_NENG_FUTURISTIC :Električna (futuristička) lokomotiva

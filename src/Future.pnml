@@ -16,7 +16,7 @@ item(FEAT_RAILTYPES,item_FUTURISTIC) {
 		build_window_caption:		string(STR_BUIL_FUTURISTIC);
 		autoreplace_text:			string(STR_REPL_FUTURISTIC);
 		new_engine_text:			string(STR_NENG_FUTURISTIC);
-		sort_order:					04;	
+		sort_order:					05;	
 
 		//Properties of the rail
 		compatible_railtype_list:	["RAIL","ELRL","SAEA","SBEE","SBCA","SADD","SAEA"];

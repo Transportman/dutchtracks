@@ -1,0 +1,93 @@
+##grflangid 0x35
+##plural 0
+
+#Main grf title and description
+STR_GRF_NAME                    :{TITLE}
+STR_GRF_DESCRIPTION             :Dutch Tracks for OpenTTD{}(c)Dutch Trackset Team{}Lisenssi: GPLv2 tai korkeampi.{}Yksityiskohdat readme:ssa.
+STR_GRF_LOAD_ORDER              :Lataa tämä NewGRF ennen mitään junasarjaa, jotta toiminta olisi virheetöntä (OpenTTD < r24272)
+
+# Parameter descriptions
+# Rail speed
+STR_PARAM_NAME_SPEED    :Nopeusrajoitukset
+STR_PARAM_DESC_SPEED    :Käytä tätä muuttujaa laittaaksesi nopeusrajoitukset pois päältä.
+
+# Track compatibility
+STR_PARAM_NAME_TRACK_COMPAT             :Ratayhteensopivuus
+STR_PARAM_DESC_TRACK_COMPAT             :Käytä tätä muuttujaa vaihtaaksesi erilaisten ratayhteensopivuuslistojen välillä. Käytä tätä kun sinulla ei ole yhteensopivaa junasarjaa! Tämä ei vaikuta moottorin voimaan, jos se riippuu ratatyypistä, koska junasarjat kontrolloivat sitä.
+STR_PARAM_TRACK_COMPAT_DEF              :Sähköistämätön, DC, AC, Metro (Oletus)
+STR_PARAM_TRACK_COMPAT_POW              :Sähköistämätön, sähköistetty, Metro (Ei erota AC/DC)
+STR_PARAM_TRACK_COMPAT_FULL             :Sähköistämätön, sähköistetty (Ei erota AC/DC/Metroa)
+
+# Level Crossing Highspeed
+STR_PARAM_NAME_LEVCROSS_HIGH    :Tasoristeykset Suurnopeus-/Betuwe-/Futuristisille radoille
+STR_PARAM_DESC_LEVCROSS_HIGH    :Käytä tätä muuttujaa salliaksesi/estääksesi tasoristeykset Suurnopeus-/Betuwe-/Futuristisille radoille
+
+# Level Crossing Metro
+STR_PARAM_NAME_LEVCROSS_METRO   :Tasoristeykset metrolle
+STR_PARAM_DESC_LEVCROSS_METRO   :Käytä tätä muuttujaa salliaksesi/estääksesi tasoristeykset metroraiteille
+
+# Fences
+STR_PARAM_NAME_FENCES                   :Aidat
+STR_PARAM_DESC_FENCES                   :Käytä tätä muuttujaa määrittääksesi käytettävät aidat (Alankomaalaiset rata-aidat, OTTD aidat tai ei aitoja)
+STR_PARAM_FENCES_DUTCH                  :Alankomaalaiset rata-aidat (jos saatavilla)
+STR_PARAM_FENCES_OTTD                   :OTTD aidat
+STR_PARAM_FENCES_NONE                   :Ei aitoja
+
+
+# Rail descriptions
+
+# Unelectrified Rail
+STR_NAME_RAIL   :Sähköistämätön rata
+STR_TOOL_RAIL   :Sähköistämätön rata
+STR_MENU_RAIL   :Sähköistämätön rata
+STR_BUIL_RAIL   :Sähköistämätön rata
+STR_REPL_RAIL   :Sähköistämätön
+STR_NENG_RAIL   :Sähköistämätön veturi
+
+# YARD Rail
+STR_NAME_YARD   :Ratapiha/asema [Yleispätevä]
+STR_TOOL_YARD   :Ratapiha/asema [Yleispätevä]
+STR_MENU_YARD   :Ratapiha/asema [Yleispätevä]
+STR_BUIL_YARD   :Ratapiha/asema [Yleispätevä]
+STR_REPL_YARD   :Sähköistetty (Ratapiha/asema)
+STR_NENG_YARD   :Sähköinen (Monijärjestelmä) veturi
+
+# Electrified [1500V DC]
+STR_NAME_STANDARDRAIL   :Vakiorata [1500V DC]
+STR_TOOL_STANDARDRAIL   :Vakiorata [1500V DC]
+STR_MENU_STANDARDRAIL   :Vakiorata [1500V DC]
+STR_BUIL_STANDARDRAIL   :Vakiorata [1500V DC]
+STR_REPL_STANDARDRAIL   :1500V DC (Vakiorata)
+STR_NENG_STANDARDRAIL   :1500V DC veturi
+
+# Betuweroute [25kV AC]
+STR_NAME_BETUWE :Betuwe-reitti [25kV AC]
+STR_TOOL_BETUWE :Betuwe-reitti [25kV AC]
+STR_MENU_BETUWE :Betuwe-reitti [25kV AC]
+STR_BUIL_BETUWE :Betuwe-reitti [25kV AC]
+STR_REPL_BETUWE :25kV AC (Betuwe-reitti)
+STR_NENG_BETUWE :25kV AC (Betuwe-reitti) veturi
+
+# Metro
+STR_NAME_METRO  :Metro
+STR_TOOL_METRO  :Metro
+STR_MENU_METRO  :Metro
+STR_BUIL_METRO  :Metro
+STR_REPL_METRO  :Metro
+STR_NENG_METRO  :Metroveturi
+
+# HSL [25kV AC]
+STR_NAME_HSL    :Suurnopeusrata [25kV AC]
+STR_TOOL_HSL    :Suurnopeusrata [25kV AC]
+STR_MENU_HSL    :Suurnopeusrata [25kV AC]
+STR_BUIL_HSL    :Suurnopeusrata [25kV AC]
+STR_REPL_HSL    :25kV AC (Suurnopeus)
+STR_NENG_HSL    :25kV AC (Suurnopeus) veturi
+
+# Futuristic [Universal]
+STR_NAME_FUTURISTIC     :Futuristinen [Yleispätevä]
+STR_TOOL_FUTURISTIC     :Futuristinen [Yleispätevä]
+STR_MENU_FUTURISTIC     :Futuristinen [Yleispätevä]
+STR_BUIL_FUTURISTIC     :Futuristinen [Yleispätevä]
+STR_REPL_FUTURISTIC     :Sähköinen (Futuristinen)
+STR_NENG_FUTURISTIC     :Sähköinen (Futuristinen) veturi

@@ -4,17 +4,23 @@
 
 #Main grf title and description
 STR_GRF_NAME                    :{TITLE}
+STR_GRF_DESCRIPTION             :Vies de Tren Holandeses (Dutch Tracks) per a l'OpenTTD{}(c)Equip del Conjunt de Vies Holandeses{}Llicència: GPLv2 o superior.{}Veure el llegeix-me per a més detalls.
+STR_GRF_LOAD_ORDER              :Carrega aquest NewGRF abans que qualsevol altre que proporcioni trens per a un funcionament correcte (OpenTTD < r24272)
 
 # Parameter descriptions
 # Rail speed
+STR_PARAM_NAME_SPEED    :Límits de velocitat
+STR_PARAM_DESC_SPEED    :Usa aquest paràmetre per a desactivar els límits de velocitat.
 
 # Track compatibility
 STR_PARAM_NAME_TRACK_COMPAT             :Compatibilitat de vies
+STR_PARAM_DESC_TRACK_COMPAT             :Usa aquest paràmetre per a establir la compatibilitat entre els tipus de via. Empra'l si no hi ha cap NewGRF de trens compatibles carregat! Això no modifica la potència dels vehicles si depèn del tipus de via, ja que això ho controlen els NewGRF que proporcionen els trens.
 STR_PARAM_TRACK_COMPAT_DEF              :No electrificat, DC, AC i Metro (Per defecte)
 STR_PARAM_TRACK_COMPAT_POW              :No electrificat, electrificat, Metro (Sense distinció AC/DC)
 STR_PARAM_TRACK_COMPAT_FULL             :No electrificat, electrificat (Sense distinció AC/DC/Metro)
 
 # Level Crossing Highspeed
+STR_PARAM_NAME_LEVCROSS_HIGH    :Passos a nivell per a HSL/Betuwe/Futurístic
 STR_PARAM_DESC_LEVCROSS_HIGH    :Usa aquest paràmetre per a activar/desactivar els passos de nivell per a les vies HSL/Betuwe/Futurística
 
 # Level Crossing Metro
@@ -22,28 +28,51 @@ STR_PARAM_NAME_LEVCROSS_METRO   :Passos a nivell per a via de metro
 STR_PARAM_DESC_LEVCROSS_METRO   :Usa aquest paràmetre per a activar/desactivar els passos a nivell per a les vies de Metro
 
 # Fences
+STR_PARAM_NAME_FENCES                   :Tanques
+STR_PARAM_DESC_FENCES                   :Usa aquest paràmetre per a escollir els tipus de tanques (tanques de vies holandeses, tanques de l'OpenTTD o sense tanques)
+STR_PARAM_FENCES_DUTCH                  :Tanques de vies holandeses (si estan disponibles)
+STR_PARAM_FENCES_OTTD                   :Tanques de l'OpenTTD
+STR_PARAM_FENCES_NONE                   :Sense tanques
 
 
 # Rail descriptions
 
 # Unelectrified Rail
 STR_NAME_RAIL   :Rail No Electrificat
+STR_TOOL_RAIL   :Rail No Electrificat
 STR_MENU_RAIL   :Rail No Electrificat
 STR_BUIL_RAIL   :Rail no electrificat
+STR_REPL_RAIL   :No electrificat
 STR_NENG_RAIL   :Vehicle de rail no electrificat
 
 # YARD Rail
+STR_NAME_YARD   :Pati/Estació [Universal]
+STR_TOOL_YARD   :Pati/Estació [Universal]
+STR_MENU_YARD   :Pati/Estació [Universal]
+STR_BUIL_YARD   :Pati/Estació [Universal]
+STR_REPL_YARD   :Elèctrica (Pati/Estació)
 STR_NENG_YARD   :Vehicle Elèctric (Multisistema)
 
 # Electrified [1500V DC]
+STR_NAME_STANDARDRAIL   :Rail Estàndard [1500V DC]
 STR_TOOL_STANDARDRAIL   :Rail Estàndard [1500V DC]
+STR_MENU_STANDARDRAIL   :Rail Estàndard [1500V DC]
 STR_BUIL_STANDARDRAIL   :Rail Estàndard [1500V DC]
+STR_REPL_STANDARDRAIL   :1500V DC (Rail Estàndard)
 STR_NENG_STANDARDRAIL   :Vehicle de 1500V DC
 
 # Betuweroute [25kV AC]
+STR_NAME_BETUWE :Betuweroute [25kV AC]
+STR_TOOL_BETUWE :Betuweroute [25kV AC]
+STR_MENU_BETUWE :Betuweroute [25kV AC]
 STR_BUIL_BETUWE :Betuweroute [25kV AC]
+STR_REPL_BETUWE :25kV AC (Betuweroute)
+STR_NENG_BETUWE :Model 25kV AC (Betuweroute)
 
 # Metro
+STR_NAME_METRO  :Metro
+STR_TOOL_METRO  :Metro
+STR_MENU_METRO  :Metro
 STR_BUIL_METRO  :Metro
 STR_REPL_METRO  :Metro
 STR_NENG_METRO  :Vehicles de Metro
@@ -51,11 +80,15 @@ STR_NENG_METRO  :Vehicles de Metro
 # HSL [25kV AC]
 STR_NAME_HSL    :HSL [25kV AC]
 STR_TOOL_HSL    :HSL [25kV AC]
+STR_MENU_HSL    :HSL [25kV AC]
 STR_BUIL_HSL    :HSL [25kV AC]
 STR_REPL_HSL    :25kV AC (HSL)
+STR_NENG_HSL    :Model 25kV AC (HSL)
 
 # Futuristic [Universal]
 STR_NAME_FUTURISTIC     :Futurístic [Universal]
+STR_TOOL_FUTURISTIC     :Futurístic [Universal]
+STR_MENU_FUTURISTIC     :Futurístic [Universal]
 STR_BUIL_FUTURISTIC     :Futurístic [Universal]
 STR_REPL_FUTURISTIC     :Elèctric (Futurístic)
 STR_NENG_FUTURISTIC     :Vehicle Elèctric (Futurístic)

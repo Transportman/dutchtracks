@@ -4,7 +4,7 @@
 
 #Main grf title and description
 STR_GRF_NAME                    :{TITLE}
-STR_GRF_DESCRIPTION             :Vies de Tren Holandeses (Dutch Tracks) per a l'OpenTTD{}(c)Equip del Conjunt de Vies Holandeses{}Llicència: GPLv2 o superior.{}Veure el llegeix-me per a més detalls.
+STR_GRF_DESCRIPTION             :Vies de Tren Holandeses (Dutch Tracks) per a l'OpenTTD{}(c)Dutch Trackset Team{}Llicència: GPLv2 o superior.{}Veure el llegeix-me per a més detalls.
 STR_GRF_LOAD_ORDER              :Carrega aquest NewGRF abans que qualsevol altre que proporcioni trens per a un funcionament correcte (OpenTTD < r24272)
 
 # Parameter descriptions

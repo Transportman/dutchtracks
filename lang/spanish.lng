@@ -1,0 +1,38 @@
+##grflangid 0x04
+##plural 0
+##gender m f
+
+#Main grf title and description
+
+# Parameter descriptions
+# Rail speed
+
+# Track compatibility
+STR_PARAM_TRACK_COMPAT_DEF              :No electrificado, CC, CA, Metro (Por defecto)
+
+# Level Crossing Highspeed
+
+# Level Crossing Metro
+
+# Fences
+STR_PARAM_FENCES_OTTD                   :Vallas OTTD
+
+
+# Rail descriptions
+
+# Unelectrified Rail
+
+# YARD Rail
+
+# Electrified [1500V DC]
+STR_BUIL_STANDARDRAIL   :Vía estandar [1500V CC]
+
+# Betuweroute [25kV AC]
+STR_TOOL_BETUWE :Betuweroute [25kV CA]
+
+# Metro
+STR_BUIL_METRO  :Metro
+
+# HSL [25kV AC]
+
+# Futuristic [Universal]

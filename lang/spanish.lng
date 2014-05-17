@@ -3,6 +3,7 @@
 ##gender m f
 
 #Main grf title and description
+STR_GRF_NAME                    :{TITLE}
 
 # Parameter descriptions
 # Rail speed
@@ -31,8 +32,11 @@ STR_BUIL_STANDARDRAIL   :Vía estandar [1500V CC]
 STR_TOOL_BETUWE :Betuweroute [25kV CA]
 
 # Metro
+STR_TOOL_METRO  :Metro
 STR_BUIL_METRO  :Metro
+STR_REPL_METRO  :Metro
 
 # HSL [25kV AC]
+STR_TOOL_HSL    :HSL [25kV CA]
 
 # Futuristic [Universal]

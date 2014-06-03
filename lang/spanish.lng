@@ -30,6 +30,7 @@ STR_BUIL_STANDARDRAIL   :Vía estandar [1500V CC]
 
 # Betuweroute [25kV AC]
 STR_TOOL_BETUWE :Betuweroute [25kV CA]
+STR_MENU_BETUWE :Betuweroute [25kV CA]
 
 # Metro
 STR_TOOL_METRO  :Metro

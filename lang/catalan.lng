@@ -54,20 +54,20 @@ STR_REPL_YARD   :Elèctrica (Pati/Estació)
 STR_NENG_YARD   :Vehicle Elèctric (Multisistema)
 
 # Electrified [1500V DC]
-STR_NAME_STANDARDRAIL   :Rail Estàndard [1500V DC]
-STR_TOOL_STANDARDRAIL   :Rail Estàndard [1500V DC]
-STR_MENU_STANDARDRAIL   :Rail Estàndard [1500V DC]
-STR_BUIL_STANDARDRAIL   :Rail Estàndard [1500V DC]
-STR_REPL_STANDARDRAIL   :1500V DC (Rail Estàndard)
-STR_NENG_STANDARDRAIL   :Vehicle de 1500V DC
+STR_NAME_STANDARDRAIL   :Rail Estàndard [1500 V DC]
+STR_TOOL_STANDARDRAIL   :Rail Estàndard [1500 V DC]
+STR_MENU_STANDARDRAIL   :Rail Estàndard [1500 V DC]
+STR_BUIL_STANDARDRAIL   :Rail Estàndard [1500 V DC]
+STR_REPL_STANDARDRAIL   :1500 V DC (Rail Estàndard)
+STR_NENG_STANDARDRAIL   :Vehicle de 1500 V DC
 
 # Betuweroute [25kV AC]
-STR_NAME_BETUWE :Betuweroute [25kV AC]
-STR_TOOL_BETUWE :Betuweroute [25kV AC]
-STR_MENU_BETUWE :Betuweroute [25kV AC]
-STR_BUIL_BETUWE :Betuweroute [25kV AC]
-STR_REPL_BETUWE :25kV AC (Betuweroute)
-STR_NENG_BETUWE :Model 25kV AC (Betuweroute)
+STR_NAME_BETUWE :Betuweroute [25 kV AC]
+STR_TOOL_BETUWE :Betuweroute [25 kV AC]
+STR_MENU_BETUWE :Betuweroute [25 kV AC]
+STR_BUIL_BETUWE :Betuweroute [25 kV AC]
+STR_REPL_BETUWE :25 kV AC (Betuweroute)
+STR_NENG_BETUWE :Model 25 kV AC (Betuweroute)
 
 # Metro
 STR_NAME_METRO  :Metro
@@ -78,12 +78,12 @@ STR_REPL_METRO  :Metro
 STR_NENG_METRO  :Vehicles de Metro
 
 # HSL [25kV AC]
-STR_NAME_HSL    :HSL [25kV AC]
-STR_TOOL_HSL    :HSL [25kV AC]
-STR_MENU_HSL    :HSL [25kV AC]
-STR_BUIL_HSL    :HSL [25kV AC]
-STR_REPL_HSL    :25kV AC (HSL)
-STR_NENG_HSL    :Model 25kV AC (HSL)
+STR_NAME_HSL    :HSL [25 kV AC]
+STR_TOOL_HSL    :HSL [25 kV AC]
+STR_MENU_HSL    :HSL [25 kV AC]
+STR_BUIL_HSL    :HSL [25 kV AC]
+STR_REPL_HSL    :25 kV AC (HSL)
+STR_NENG_HSL    :Model 25 kV AC (HSL)
 
 # Futuristic [Universal]
 STR_NAME_FUTURISTIC     :Futurístic [Universal]

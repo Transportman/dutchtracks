@@ -17,6 +17,7 @@ STR_PARAM_TRACK_COMPAT_DEF              :No electrificado, CC, CA, Metro (Por de
 # Level Crossing Metro
 
 # Fences
+STR_PARAM_NAME_FENCES                   :Vallas
 STR_PARAM_FENCES_OTTD                   :Vallas OTTD
 
 
@@ -34,6 +35,7 @@ STR_TOOL_BETUWE :Betuweroute [25kV CA]
 STR_MENU_BETUWE :Betuweroute [25kV CA]
 
 # Metro
+STR_NAME_METRO  :Metro
 STR_TOOL_METRO  :Metro
 STR_MENU_METRO  :Metro
 STR_BUIL_METRO  :Metro

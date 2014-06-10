@@ -19,6 +19,7 @@ STR_PARAM_TRACK_COMPAT_DEF              :No electrificado, CC, CA, Metro (Por de
 # Fences
 STR_PARAM_NAME_FENCES                   :Vallas
 STR_PARAM_FENCES_OTTD                   :Vallas OTTD
+STR_PARAM_FENCES_NONE                   :Sin vallas
 
 
 # Rail descriptions

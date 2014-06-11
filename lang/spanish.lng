@@ -25,6 +25,8 @@ STR_PARAM_FENCES_NONE                   :Sin vallas
 # Rail descriptions
 
 # Unelectrified Rail
+STR_MENU_RAIL   :Ferrocarril sin electrificar
+STR_BUIL_RAIL   :Ferrocarril sin electrificar
 
 # YARD Rail
 

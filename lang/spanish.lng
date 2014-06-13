@@ -45,6 +45,8 @@ STR_BUIL_METRO  :Metro
 STR_REPL_METRO  :Metro
 
 # HSL [25kV AC]
+STR_NAME_HSL    :HSL [25kV CA]
 STR_TOOL_HSL    :HSL [25kV CA]
+STR_MENU_HSL    :HSL [25kV CA]
 
 # Futuristic [Universal]

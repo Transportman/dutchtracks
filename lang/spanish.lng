@@ -25,6 +25,7 @@ STR_PARAM_FENCES_NONE                   :Sin vallas
 # Rail descriptions
 
 # Unelectrified Rail
+STR_NAME_RAIL   :Ferrocarril sin electrificar
 STR_MENU_RAIL   :Ferrocarril sin electrificar
 STR_BUIL_RAIL   :Ferrocarril sin electrificar
 
@@ -48,5 +49,7 @@ STR_REPL_METRO  :Metro
 STR_NAME_HSL    :HSL [25kV CA]
 STR_TOOL_HSL    :HSL [25kV CA]
 STR_MENU_HSL    :HSL [25kV CA]
+STR_BUIL_HSL    :HSL [25kV CA]
+STR_REPL_HSL    :25kV CA (HSL)
 
 # Futuristic [Universal]

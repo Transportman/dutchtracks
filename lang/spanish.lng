@@ -35,8 +35,10 @@ STR_BUIL_RAIL   :Ferrocarril sin electrificar
 STR_BUIL_STANDARDRAIL   :Vía estandar [1500V CC]
 
 # Betuweroute [25kV AC]
+STR_NAME_BETUWE :Betuweroute [25kV CA]
 STR_TOOL_BETUWE :Betuweroute [25kV CA]
 STR_MENU_BETUWE :Betuweroute [25kV CA]
+STR_NENG_BETUWE :Motor (Betuweroute) 25kV CA
 
 # Metro
 STR_NAME_METRO  :Metro
@@ -51,5 +53,6 @@ STR_TOOL_HSL    :HSL [25kV CA]
 STR_MENU_HSL    :HSL [25kV CA]
 STR_BUIL_HSL    :HSL [25kV CA]
 STR_REPL_HSL    :25kV CA (HSL)
+STR_NENG_HSL    :Motor (HSL) 25kV CA
 
 # Futuristic [Universal]

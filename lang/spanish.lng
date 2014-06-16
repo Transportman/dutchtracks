@@ -26,6 +26,7 @@ STR_PARAM_FENCES_NONE                   :Sin vallas
 
 # Unelectrified Rail
 STR_NAME_RAIL   :Ferrocarril sin electrificar
+STR_TOOL_RAIL   :Ferrocarril sin electrificar
 STR_MENU_RAIL   :Ferrocarril sin electrificar
 STR_BUIL_RAIL   :Ferrocarril sin electrificar
 
@@ -38,6 +39,8 @@ STR_BUIL_STANDARDRAIL   :Vía estandar [1500V CC]
 STR_NAME_BETUWE :Betuweroute [25kV CA]
 STR_TOOL_BETUWE :Betuweroute [25kV CA]
 STR_MENU_BETUWE :Betuweroute [25kV CA]
+STR_BUIL_BETUWE :Betuweroute [25kV CA]
+STR_REPL_BETUWE :25kV CA (Betuweroute)
 STR_NENG_BETUWE :Motor (Betuweroute) 25kV CA
 
 # Metro

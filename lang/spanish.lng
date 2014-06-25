@@ -60,3 +60,6 @@ STR_REPL_HSL    :25kV CA (HSL)
 STR_NENG_HSL    :Motor (HSL) 25kV CA
 
 # Futuristic [Universal]
+STR_NAME_FUTURISTIC     :Futurista [Universal]
+STR_MENU_FUTURISTIC     :Futurista [Universal]
+STR_BUIL_FUTURISTIC     :Futurista [Universal]

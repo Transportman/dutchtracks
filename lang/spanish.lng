@@ -61,6 +61,8 @@ STR_NENG_HSL    :Motor (HSL) 25kV CA
 
 # Futuristic [Universal]
 STR_NAME_FUTURISTIC     :Futurista [Universal]
+STR_TOOL_FUTURISTIC     :Futurista [Universal]
 STR_MENU_FUTURISTIC     :Futurista [Universal]
 STR_BUIL_FUTURISTIC     :Futurista [Universal]
+STR_REPL_FUTURISTIC     :Eléctrico (Futurista)
 STR_NENG_FUTURISTIC     :Motor eléctrico (Futurista)

@@ -1,0 +1,79 @@
+##grflangid 0x3a
+##plural 11
+##gender m f
+
+#Main grf title and description
+STR_GRF_NAME                    :{TITLE}
+STR_GRF_DESCRIPTION             :OpenTTD를 위한 네덜란드 선로 세트{}(c)네덜란드 선로 개발자 팀{}라이선스: GPL버전2 이상.{}세부적인 사항은 리드미를 참조하십시오.
+STR_GRF_LOAD_ORDER              :올바른 구동을 위해 다른 GRF보다 먼저 이 GRF를 적용하십시오. (OpenTTD r24272버전 이하)
+
+# Parameter descriptions
+# Rail speed
+STR_PARAM_DESC_SPEED    :열차의 속력 제한을 없애기 위해서는 이 매개 변수를 조정 하십시오.
+
+# Track compatibility
+STR_PARAM_NAME_TRACK_COMPAT             :선로 호환성
+STR_PARAM_DESC_TRACK_COMPAT             :서로 다른 선로의 호환성을 위해서는 이 매개 변수를 조정하십시오. 당신이 서로 호환되지 않는 선로 GRF를 쓰고 있을 경우에만 사용해야합니다. 이 GRF가 열차 세트에 조종을 받을 때 선로의 종류에 따라 각 열차의 성능에 영향을 미치지 않습니다..
+STR_PARAM_TRACK_COMPAT_DEF              :비전철화, 교류, 직류, 지하철 (기본)
+STR_PARAM_TRACK_COMPAT_FULL             :비전철화, 전철화 (직류/교류/지하철 차이 없이)
+
+# Level Crossing Highspeed
+
+# Level Crossing Metro
+STR_PARAM_NAME_LEVCROSS_METRO   :지하철 선로를 위한 입체 교차
+STR_PARAM_DESC_LEVCROSS_METRO   :지하철 선로의 입체 교차 여부를 이 매개변수로 조정할 수 있습니다.
+
+# Fences
+STR_PARAM_NAME_FENCES                   :울타리
+STR_PARAM_DESC_FENCES                   :울타리 옵션을 켜려면 이 매개 변수를 사용하십시오.(네덜란드 선로 울타리, 기본 울타리, 없음)
+STR_PARAM_FENCES_DUTCH                  :네덜란드 선로 울타리 (가능할 경우)
+STR_PARAM_FENCES_OTTD                   :기본 선로 울타리
+
+
+# Rail descriptions
+
+# Unelectrified Rail
+STR_NAME_RAIL   :비전철화 선로
+STR_TOOL_RAIL   :비전철화 선로
+STR_MENU_RAIL   :비전철화 선로
+STR_BUIL_RAIL   :비전철화 선로
+STR_REPL_RAIL   :비전철화
+STR_NENG_RAIL   :비전화 기관차
+
+# YARD Rail
+STR_NAME_YARD   : 야적장/정류장 [유니버설]
+STR_MENU_YARD   :야적장/정류장 [유니버설]
+STR_BUIL_YARD   : 야적장/정류장 [유니버설]
+STR_REPL_YARD   :전철화 (야적장/정류장)
+STR_NENG_YARD   :디젤전기기관차
+
+# Electrified [1500V DC]
+STR_NAME_STANDARDRAIL   : 일반 선로 [1500V 교류]
+STR_TOOL_STANDARDRAIL   : 일반 선로 [1500V 교류]
+STR_MENU_STANDARDRAIL   :일반 선로 [1500V 교류]
+STR_BUIL_STANDARDRAIL   : 일반 선로 [1500V 교류]
+STR_REPL_STANDARDRAIL   : 일반 선로 [1500V 교류]
+STR_NENG_STANDARDRAIL   :1500V 교류 기관차
+
+# Betuweroute [25kV AC]
+STR_NAME_BETUWE :Betuweroute [25kV 직류]
+STR_TOOL_BETUWE :Betuweroute [25kV 직류]
+STR_MENU_BETUWE :Betuweroute [25kV 직류]
+STR_BUIL_BETUWE :Betuweroute [25kV 직류]
+STR_NENG_BETUWE :25kV 직류 (Betuweroute) 기관차
+
+# Metro
+STR_NAME_METRO  :지하철
+STR_TOOL_METRO  :지하철 선로
+STR_MENU_METRO  :지하철 선로
+STR_BUIL_METRO  :지하철 선로
+STR_REPL_METRO  :지하철
+
+# HSL [25kV AC]
+STR_NAME_HSL    :HSL [25KV 직류]
+STR_MENU_HSL    :HSL [25kV 직류]
+STR_REPL_HSL    :25KV 직류 (HSL)
+
+# Futuristic [Universal]
+STR_NAME_FUTURISTIC     :Futuristic [유니버설]
+STR_MENU_FUTURISTIC     :Futuristic [유니버설]

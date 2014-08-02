@@ -34,6 +34,8 @@ STR_BUIL_RAIL   :Ferrocarril sin electrificar
 STR_NAME_YARD   :Patio/Estación [Universal]
 STR_MENU_YARD   :Patio/Estación [Universal]
 STR_BUIL_YARD   :Patio/Estación [Universal]
+STR_REPL_YARD   :Eléctrico (Patio/Estación)
+STR_NENG_YARD   :Motor eléctrico (multisistema)
 
 # Electrified [1500V DC]
 STR_BUIL_STANDARDRAIL   :Vía estandar [1500V CC]

@@ -10,6 +10,7 @@ STR_GRF_NAME                    :{TITLE}
 STR_PARAM_NAME_SPEED    :Límites de velocidad
 
 # Track compatibility
+STR_PARAM_NAME_TRACK_COMPAT             :Compatibilidad de vías
 STR_PARAM_TRACK_COMPAT_DEF              :No electrificado, CC, CA, Metro (Por defecto)
 
 # Level Crossing Highspeed
@@ -32,6 +33,7 @@ STR_BUIL_RAIL   :Ferrocarril sin electrificar
 
 # YARD Rail
 STR_NAME_YARD   :Patio/Estación [Universal]
+STR_TOOL_YARD   :Patio/Estación [Universal]
 STR_MENU_YARD   :Patio/Estación [Universal]
 STR_BUIL_YARD   :Patio/Estación [Universal]
 STR_REPL_YARD   :Eléctrico (Patio/Estación)

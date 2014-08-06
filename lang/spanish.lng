@@ -40,6 +40,8 @@ STR_REPL_YARD   :Eléctrico (Patio/Estación)
 STR_NENG_YARD   :Motor eléctrico (multisistema)
 
 # Electrified [1500V DC]
+STR_NAME_STANDARDRAIL   :Vía estandar [1500V CC]
+STR_MENU_STANDARDRAIL   :Vía estandar [1500V CC]
 STR_BUIL_STANDARDRAIL   :Vía estandar [1500V CC]
 
 # Betuweroute [25kV AC]

@@ -30,6 +30,8 @@ STR_NAME_RAIL   :Ferrocarril sin electrificar
 STR_TOOL_RAIL   :Ferrocarril sin electrificar
 STR_MENU_RAIL   :Ferrocarril sin electrificar
 STR_BUIL_RAIL   :Ferrocarril sin electrificar
+STR_REPL_RAIL   :Sin electrificar
+STR_NENG_RAIL   :Motor sin electrificar
 
 # YARD Rail
 STR_NAME_YARD   :Patio/Estación [Universal]

@@ -12,6 +12,7 @@ STR_PARAM_NAME_SPEED    :Límites de velocidad
 # Track compatibility
 STR_PARAM_NAME_TRACK_COMPAT             :Compatibilidad de vías
 STR_PARAM_TRACK_COMPAT_DEF              :No electrificado, CC, CA, Metro (Por defecto)
+STR_PARAM_TRACK_COMPAT_FULL             :No electrificado, electrificado (sin distinción entre CA/CC/Metro)
 
 # Level Crossing Highspeed
 
@@ -45,6 +46,8 @@ STR_NENG_YARD   :Motor eléctrico (multisistema)
 STR_NAME_STANDARDRAIL   :Vía estandar [1500V CC]
 STR_MENU_STANDARDRAIL   :Vía estandar [1500V CC]
 STR_BUIL_STANDARDRAIL   :Vía estandar [1500V CC]
+STR_REPL_STANDARDRAIL   :1500V CC (Vía estandar)
+STR_NENG_STANDARDRAIL   :Motor 1500V CC
 
 # Betuweroute [25kV AC]
 STR_NAME_BETUWE :Betuweroute [25kV CA]

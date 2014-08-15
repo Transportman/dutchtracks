@@ -15,6 +15,7 @@ STR_PARAM_TRACK_COMPAT_DEF              :No electrificado, CC, CA, Metro (Por de
 STR_PARAM_TRACK_COMPAT_FULL             :No electrificado, electrificado (sin distinción entre CA/CC/Metro)
 
 # Level Crossing Highspeed
+STR_PARAM_NAME_LEVCROSS_HIGH    :Pasos a nivel para HSL/Betuweroute/Futurista
 
 # Level Crossing Metro
 
@@ -44,6 +45,7 @@ STR_NENG_YARD   :Motor eléctrico (multisistema)
 
 # Electrified [1500V DC]
 STR_NAME_STANDARDRAIL   :Vía estandar [1500V CC]
+STR_TOOL_STANDARDRAIL   :Vía estandar [1500V CC]
 STR_MENU_STANDARDRAIL   :Vía estandar [1500V CC]
 STR_BUIL_STANDARDRAIL   :Vía estandar [1500V CC]
 STR_REPL_STANDARDRAIL   :1500V CC (Vía estandar)

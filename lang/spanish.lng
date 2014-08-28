@@ -4,6 +4,8 @@
 
 #Main grf title and description
 STR_GRF_NAME                    :{TITLE}
+STR_GRF_DESCRIPTION             :Dutch Tracks o Vías holandesas para OpenTTD{}(c)Dutch Trackset Team{}Licencia: GPLv2 ó superior.{}Leer el Readme para más detalles.
+STR_GRF_LOAD_ORDER              :Cargar este NewGRF antes de cualquier otro NewGRF ferroviario para su correcto funcionamiento (OpenTTD < r24272)
 
 # Parameter descriptions
 # Rail speed

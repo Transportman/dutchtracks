@@ -10,6 +10,7 @@ STR_GRF_LOAD_ORDER              :Cargar este NewGRF antes de cualquier otro NewG
 # Parameter descriptions
 # Rail speed
 STR_PARAM_NAME_SPEED    :Límites de velocidad
+STR_PARAM_DESC_SPEED    :Utiliza este parámetro para quitar los límites de velocidad.
 
 # Track compatibility
 STR_PARAM_NAME_TRACK_COMPAT             :Compatibilidad de vías
@@ -18,6 +19,7 @@ STR_PARAM_TRACK_COMPAT_FULL             :No electrificado, electrificado (sin di
 
 # Level Crossing Highspeed
 STR_PARAM_NAME_LEVCROSS_HIGH    :Pasos a nivel para HSL/Betuweroute/Futurista
+STR_PARAM_DESC_LEVCROSS_HIGH    :Utiliza este parámetro para activar/desactivar los pasos a nivel en las vías HSL/Betuweroute/Futurista.
 
 # Level Crossing Metro
 

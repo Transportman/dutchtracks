@@ -22,10 +22,12 @@ STR_PARAM_NAME_LEVCROSS_HIGH    :Pasos a nivel para HSL/Betuweroute/Futurista
 STR_PARAM_DESC_LEVCROSS_HIGH    :Utiliza este parámetro para activar/desactivar los pasos a nivel en las vías HSL/Betuweroute/Futurista.
 
 # Level Crossing Metro
+STR_PARAM_NAME_LEVCROSS_METRO   :Pasos a nivel para las vías del Metro
 STR_PARAM_DESC_LEVCROSS_METRO   :Utiliza este parámetro para activar/desactivar los pasos a nivel en las vías de Metro
 
 # Fences
 STR_PARAM_NAME_FENCES                   :Vallas
+STR_PARAM_DESC_FENCES                   :Utiliza este parámetro para establecer el tipo de vallas que se usarán en el juego (vallas de las vías holandesas, vallas OTTD o sin vallas)
 STR_PARAM_FENCES_DUTCH                  :Vallas de las vías holandesas (si están disponibles)
 STR_PARAM_FENCES_OTTD                   :Vallas OTTD
 STR_PARAM_FENCES_NONE                   :Sin vallas

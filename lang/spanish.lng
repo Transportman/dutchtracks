@@ -14,8 +14,10 @@ STR_PARAM_DESC_SPEED    :Utiliza este parámetro para quitar los límites de vel
 
 # Track compatibility
 STR_PARAM_NAME_TRACK_COMPAT             :Compatibilidad de vías
+STR_PARAM_DESC_TRACK_COMPAT             :Utiliza este parámetro para escoger entre diferentes listas de compatibilidad de vía. ¡Utiliza esta opción cuando no tienes un set ferroviario compatible cargado! Esto no afecta a la potencia motora de locomotora alguna si dependen estas del tipo de vía sobre el que corren, no en vano esto es controlado (independientemente) por cada set ferroviario.
 STR_PARAM_TRACK_COMPAT_DEF              :No electrificado, CC, CA, Metro (Por defecto)
-STR_PARAM_TRACK_COMPAT_FULL             :No electrificado, electrificado (sin distinción entre CA/CC/Metro)
+STR_PARAM_TRACK_COMPAT_POW              :No electrificado, electrificado, Metro (Sin distinción entre CA/CC)
+STR_PARAM_TRACK_COMPAT_FULL             :No electrificado, electrificado (Sin distinción entre CA/CC/Metro)
 
 # Level Crossing Highspeed
 STR_PARAM_NAME_LEVCROSS_HIGH    :Pasos a nivel para HSL/Betuweroute/Futurista

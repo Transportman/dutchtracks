@@ -1,0 +1,114 @@
+Dutch Track Set changelog
+=========================
+0.1.0-alpha2 (26/09/2014)
+-------------------------
+- Add: Support for receiving translations from eints translation manager
+- Change: [Makefile] Update to make-nml 0.4.7 and thus fix building source bundle
+- Feature: Parameter to set fences (closes #4234)
+- Fix: Sorting order, Futuristic was sorted above HSL in some cases
+- Update: .hgignore
+- Update: Small clarification in the description for the track compatibility parameter
+- Update: Translations from webtranslator
+
+0.1.0-alpha1 (12/09/2012)
+-------------------------
+- Add: Modified graphics for Betuwe Overlaysprites to remove sleepers from junctions (By Transportman)
+- Cleanup r0: Graphics go in there, no need to remind me anymore
+- Cleanup: Code indents in rail.pnml and HSL.pnml. Closes #3864
+- Cleanup: If you don't know what something does or how it works, don't include it (curve_speed_multiplier)
+- Cleanup: Old graphics file
+- Codechange r0: Makefile.in had a reference to the trainset.
+- Codechange r1: Adding features for graphics of the HSL. Still outcommented, so not functional.
+- Codechange r11: Whitespace in HSL.pnml went missing (again)
+- Codechange r9: Missings whitespace in HSL.pnml
+- Codechange: Adding GPL notice to code files.
+- Codechange: merging the alternative_railtype_lists for Metro
+- Codechange: Moving if statements for speedlimits to the inside of the Item block.
+- Codechange: Preparing code for inclusion of Betuweroute catenary poles (still outcommented because graphics are not yet finished, so no image file yet)
+- Codechange: Small fix in comments
+- Codechange: Some short comments and whitespaces in header.pnml
+- Codechange: Some whitespaces between parameters in header.pnml
+- Doc: Credits for the level crossing lights were missing in the graphics files
+- Doc: Some notes on the templates
+- Doc: Start with readme.txt
+- Doc: Updated Credits
+- Doc: Updated Credits
+- Doc: Updated credits
+- Doc: Updated Readme
+- Doc: Updated readme
+- Doc: Updated readme
+- Doc: Warning to load set before train sets in OpenTTD <r24272 (closes #4013)
+- Docs: psd source file for wiki banner
+- Docs: Updated Credits
+- Feature #3889: Enforce Track introduction even when no trains are provided.
+- Feature: 1500V DC catenary poles+wires (Graphics by Purno)
+- Feature: 1500V DC Rail Basic-code
+- Feature: 1500V DC, Betuweroute and HSL also introduce Yard rails (closes #4114)
+- Feature: Alternative railtype list (closes #3856)
+- Feature: Alternative railtype list for Metro
+- Feature: Basic Unelectrified rail code
+- Feature: Betuweroute and HSL also introduce each other
+- Feature: Betuweroute Basic-code
+- Feature: Betuweroute Catenary poles graphics (by Yoshi)
+- Feature: Betuweroute Fences (by Yoshi)
+- Feature: Betuweroute Tracks (By Yoshi)
+- Feature: Compatibility parameter now also makes corresponding tracks available (closes #4198)
+- Feature: Construction and maintenance costs
+- Feature: Dutch translation
+- Feature: Futuristic rail Basic-code
+- Feature: Futuristic Track Graphics (NuTracks v1.1.2 Very Highspeed Tracks by Oberhümer)
+- Feature: HSL Speedlimit
+- Feature: HSL Track (mostly a rename of Electric Rail at this moment, need something to start with), properties still incorrect, no graphics included
+- Feature: HSL Track Graphcis (NuTracks v1.1.2 Highspeed Tracks by Oberhümer)
+- Feature: Include Basic-codes (Breaks compatibility)
+- Feature: Introduction dates for tracks
+- Feature: Metro Basic-code
+- Feature: Metro graphics (by Purno, Update by Foobar, Templated by Transportman)
+- Feature: Metro Level Crossing lights (by Transportman, based on OpenGFX signals) (closes #3879)
+- Feature: Modified costs, no parameter yet (issue #3880)
+- Feature: Multisystem trains introduce all corresponding tracks (closes #4113)
+- Feature: New raillabel for HSL
+- Feature: Parameter for level crossings on HSL/Betuwe/Futuristic and Metro (closes #3886)
+- Feature: Parameter to disable speed limits.
+- Feature: Parameter to override track compatibility
+- Feature: Remove introduction date (issue #3878)
+- Feature: Slightly changed strings for Replacement and New Engine
+- Feature: Sort order
+- Feature: Templates (Based on NuTracks v1.1.2)
+- Feature: Track compatibility/powered list (#issue #3856)
+- Feature: Unelectrified Rail Speedlimit
+- Feature: Yard Rail Graphics (NuTracks v1.1.2 Lowspeed Tracks by Oberhümer)
+- Feature: Yard/station rail Basic-code
+- Fix #3857: Missing Makefile.nml. Compiler should now work.
+- Fix #4071: filename was future.pnml on devzone instead of Future.pnml
+- Fix #4101: When there are no capitals in the filename, also don't have those capitals in the code.
+- Fix issue #3883: Capitalization in dutchtracks.pnml + Fixed autoreplace mistake
+- Fix r11: Bridge template offset was 1px off
+- Fix r11: Fixed template
+- Fix r11: Templateblocks need (), even if there are no arguments
+- Fix r11: Uploaded a .nml file instead of a .pnml.
+- Fix r19: Rail got wrong speedlimit (Copypasting is never a good idea)
+- Fix r22-r29: Changed railtype labels to match actual track properties
+- Fix r31, r32 and r33: Compatibility broken
+- Fix r41: Compatibility broken when fixing the autoreplace mistake
+- Fix r52: Also include Metro for this, and a little more text in the parameter description.
+- Fix r55: Some offsets and sizes were wrong for the Betuweroute Catenary poles (closes #3895)
+- Fix r58: Adding credits to file
+- Fix r94: Update minimal compatible version to r94, it is very likely the previous changes broke compatibility
+- Fix: Powered_railtype_list was missing the Betuweroute entry for the universal tracks.
+- Init: set up repo
+- Remove: Early introduction parameter and forced introduction of all tracks through Futuristic tracks
+- Revert r72: Enabling Nighlties again
+- Revert r87: It is not possible to combine issues #4113 and #4114, #4113 takes priority (closes #4114)
+- Temporary: Remove Future tracks (issue #4071)
+- Temporary: Remove some graphics files due to missing capitalization that probably prevents compiling
+- Update #4072: Correct capitalization of file names, should fix compile errors
+- Update r13: Updatde template notes (issue #3855)
+- Update r51: C is no longer used for dual-voltage in the alternative_railtype_list
+- Update r74: Small rephrasing in the readme (should have saved before doing the commit)
+- Update: english.lng
+- Update: Language file for r22 to r27
+- Update: One of the offsets in the templates was wrong
+- Update: Small change to the new_engine text for Yard/Station rail
+- Update: Stop building nigthlies, no update to project to be expected soon.
+- Update: Template for bridges, NE upward direction was 1 px short

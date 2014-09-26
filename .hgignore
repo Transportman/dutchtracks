@@ -9,6 +9,7 @@ syntax: glob
 *.scm
 custom_tags.txt
 docs/readme.txt
+docs/changelog_raw.txt
 Makefile.dist
 *-*-source
 *-*-source.tar*

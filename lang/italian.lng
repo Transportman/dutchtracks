@@ -1,0 +1,95 @@
+##grflangid 0x27
+##plural 0
+##gender m ma f
+##case fp fs mp ms
+
+#Main grf title and description
+STR_GRF_NAME                    :{TITLE}
+STR_GRF_DESCRIPTION             :Binari Olandesi per OpenTTD{}(c)Team dei Binari Olandesi{}Licenza: GPLv2 o piú alta.{}Vedere readme per dettagli.
+STR_GRF_LOAD_ORDER              :Caricate questo NewGRF prima di tutti i pachetti di treni per un funzionamento corretto (OpenTTD < r24272)
+
+# Parameter descriptions
+# Rail speed
+STR_PARAM_NAME_SPEED    :Limiti di velocitá
+STR_PARAM_DESC_SPEED    :Usate questo parametro per disattivare i limiti di velocitá.
+
+# Track compatibility
+STR_PARAM_NAME_TRACK_COMPAT             :Compatibilità dei binari
+STR_PARAM_DESC_TRACK_COMPAT             :Usate questo parametro per scambiare tra le liste dei binari differenti. Usate questo quando non avete caricato nessun pachetto di treni compatibile! Questo non influenza la potenza delle locomotive se esso dipende dal tipo dei binari, siccome esso sia controllato dai pachetti di treni.
+STR_PARAM_TRACK_COMPAT_DEF              :Non elettrificata, DC, AC, Metro (difetto)
+STR_PARAM_TRACK_COMPAT_POW              :Non elettrificata, elettrificata, Metro (senza distinzione AC/DC)
+STR_PARAM_TRACK_COMPAT_FULL             :Non elettrificata, elettrificata (senza distinzione AC/DC/Metro)
+
+# Level Crossing Highspeed
+STR_PARAM_NAME_LEVCROSS_HIGH    :Passaggi a livello per HSL/Betuwe/Futuristici
+STR_PARAM_DESC_LEVCROSS_HIGH    :Usate questo parametro per attivare/disattivare i passaggi a livello per binari HSL/Betuwe/Futuristici
+
+# Level Crossing Metro
+STR_PARAM_NAME_LEVCROSS_METRO   :Passaggi a livello per Metro
+STR_PARAM_DESC_LEVCROSS_METRO   :Usate questo parametro per attivare/disattivare i passaggi a livello per binari Metro
+
+# Fences
+STR_PARAM_NAME_FENCES                   :Recinti
+STR_PARAM_DESC_FENCES                   :Usate questo parametro per impostare i recinti usati (Recinti dei binari Olandesi, Recinti OTTD o senza recinti)
+STR_PARAM_FENCES_DUTCH                  :Recinti dei binari Olandesi (se disponibile)
+STR_PARAM_FENCES_OTTD                   :Recinti OTTD
+STR_PARAM_FENCES_NONE                   :Senza recinti
+
+
+# Rail descriptions
+
+# Unelectrified Rail
+STR_NAME_RAIL   :Binari non elettrificati
+STR_TOOL_RAIL   :Binari non elettrificati
+STR_MENU_RAIL   :Binari non elettrificati
+STR_BUIL_RAIL   :Binari non elettrificati
+STR_REPL_RAIL   :Non elettrificati
+STR_NENG_RAIL   :Locomotiva non elettrificata
+
+# YARD Rail
+STR_NAME_YARD   :Cantiere/Stazione [Universale]
+STR_TOOL_YARD   :Cantiere/Stazione [Universale]
+STR_MENU_YARD   :Cantiere/Stazione [Universale]
+STR_BUIL_YARD   :Cantiere/Stazione [Universale]
+STR_REPL_YARD   :Elettrico (Cantiere/Stazione)
+STR_NENG_YARD   :Locomotiva elettrica (multisistema)
+
+# Electrified [1500V DC]
+STR_NAME_STANDARDRAIL   :Binari normali [1500V DC]
+STR_TOOL_STANDARDRAIL   :Binari normali [1500V DC]
+STR_MENU_STANDARDRAIL   :Binari normali [1500V DC]
+STR_BUIL_STANDARDRAIL   :Binari normali [1500V DC]
+STR_REPL_STANDARDRAIL   :1500V DC (Binari normali)
+STR_NENG_STANDARDRAIL   :Locomotiva 1500V DC
+
+# Betuweroute [25kV AC]
+STR_NAME_BETUWE :Betuweroute [25kV AC]
+STR_TOOL_BETUWE :Betuweroute [25kV AC]
+STR_MENU_BETUWE :Betuweroute [25kV AC]
+STR_BUIL_BETUWE :Betuweroute [25kV AC]
+STR_REPL_BETUWE :25kV AC (Betuweroute)
+STR_NENG_BETUWE :Locomotiva 25kV AC (Betuweroute)
+
+# Metro
+STR_NAME_METRO  :Metro
+STR_TOOL_METRO  :Metro
+STR_MENU_METRO  :Metro
+STR_BUIL_METRO  :Metro
+STR_REPL_METRO  :Metro
+STR_NENG_METRO  :Locomotiva del Metro
+
+# HSL [25kV AC]
+STR_NAME_HSL    :HSL [25kV AC]
+STR_TOOL_HSL    :HSL [25kV AC]
+STR_MENU_HSL    :HSL [25kV AC]
+STR_BUIL_HSL    :HSL [25kV AC]
+STR_REPL_HSL    :25kV AC (HSL)
+STR_NENG_HSL    :Locomotiva 25kV AC (HSL)
+
+# Futuristic [Universal]
+STR_NAME_FUTURISTIC     :Futuristica [Universale]
+STR_TOOL_FUTURISTIC     :Futuristica [Universale]
+STR_MENU_FUTURISTIC     :Futuristica [Universale]
+STR_BUIL_FUTURISTIC     :Futuristica [Universale]
+STR_REPL_FUTURISTIC     :Elettrica (Futuristica)
+STR_NENG_FUTURISTIC     :Locomotiva elettrica (futuristica)

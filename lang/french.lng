@@ -1,0 +1,94 @@
+##grflangid 0x03
+##plural 2
+##gender f m m2
+
+#Main grf title and description
+STR_GRF_NAME                    :{TITLE} (Voies néerlandaises)
+STR_GRF_DESCRIPTION             :Voies néerlandaises pour OpenTTD{}(c)Dutch Trackset Team{}Licence: GPLv2 ou plus.{}Voir le lisez-moi pour plus de détails.
+STR_GRF_LOAD_ORDER              :Pour un fonctionnement correct, charger ce NewGRF avant tout set de trains (OpenTTD < r24272)
+
+# Parameter descriptions
+# Rail speed
+STR_PARAM_NAME_SPEED    :Limitations de vitesse
+STR_PARAM_DESC_SPEED    :Ce paramètre permet de désactiver les limitations de vitesse.
+
+# Track compatibility
+STR_PARAM_NAME_TRACK_COMPAT             :Compatibilité des voies
+STR_PARAM_DESC_TRACK_COMPAT             :Ce paramètre permet de changer la compatibilité des voies. À utiliser quand aucun set de train n'est employé. Cela n'affecte pas la puissance des motrices{NBSP}: si celle-ci change en fonction des voies, c'est contrôlé par le GRF de train.
+STR_PARAM_TRACK_COMPAT_DEF              :Non-électrifié, DC, AC, Métro (par défaut)
+STR_PARAM_TRACK_COMPAT_POW              :Non-électrifié, électrifié, métro (pas de distinction AC/DC)
+STR_PARAM_TRACK_COMPAT_FULL             :Non-électrifié, électrifié (pas de distinction AC/DC/métro)
+
+# Level Crossing Highspeed
+STR_PARAM_NAME_LEVCROSS_HIGH    :Passages à niveau pour HSL/Betuwe/Futuriste
+STR_PARAM_DESC_LEVCROSS_HIGH    :Ce paramètre permet d'activer/désactiver les passages à niveau pour les voies HSL/Betuwe/Futuriste
+
+# Level Crossing Metro
+STR_PARAM_NAME_LEVCROSS_METRO   :Passages à niveau pour métro
+STR_PARAM_DESC_LEVCROSS_METRO   :Ce paramètre permet d'activer/désactiver les passages à niveau pour les voies du métro
+
+# Fences
+STR_PARAM_NAME_FENCES                   :Clôtures
+STR_PARAM_DESC_FENCES                   :Ce paramètre permet de choisir quelles clôtures utiliser (Clôtures néerlandaises, OpenTTD, ou aucune)
+STR_PARAM_FENCES_DUTCH                  :Clôtures néerlandaises (si disponibles)
+STR_PARAM_FENCES_OTTD                   :Clôtures OpenTTD
+STR_PARAM_FENCES_NONE                   :Pas de clôtures
+
+
+# Rail descriptions
+
+# Unelectrified Rail
+STR_NAME_RAIL   :Voie non-électrifiée
+STR_TOOL_RAIL   :Voie non-électrifiée
+STR_MENU_RAIL   :Voie non-électrifiée
+STR_BUIL_RAIL   :Voie non-électrifiée
+STR_REPL_RAIL   :Non-électrifié
+STR_NENG_RAIL   :Véhicule non-électrifié
+
+# YARD Rail
+STR_NAME_YARD   :Gare/Triage [Universel]
+STR_TOOL_YARD   :Gare/Triage [Universel]
+STR_MENU_YARD   :Gare/Triage [Universel]
+STR_BUIL_YARD   :Gare/Triage [Universel]
+STR_REPL_YARD   :Électrique (Gare/Triage)
+STR_NENG_YARD   :Véhicule électrique (multicourant)
+
+# Electrified [1500V DC]
+STR_NAME_STANDARDRAIL   :Voie standard [1500V DC]
+STR_TOOL_STANDARDRAIL   :Voie standard [1500V DC]
+STR_MENU_STANDARDRAIL   :Voie standard [1500V DC]
+STR_BUIL_STANDARDRAIL   :Voie standard [1500V DC]
+STR_REPL_STANDARDRAIL   :1500V DC (Voie standard)
+STR_NENG_STANDARDRAIL   :Véhicule 1500V DC
+
+# Betuweroute [25kV AC]
+STR_NAME_BETUWE :Ligne de la Betuwe [25kV AC]
+STR_TOOL_BETUWE :Ligne de la Betuwe [25kV AC]
+STR_MENU_BETUWE :Ligne de la Betuwe [25kV AC]
+STR_BUIL_BETUWE :Ligne de la Betuwe [25kV AC]
+STR_REPL_BETUWE :25kV AC (Ligne de la Betuwe)
+STR_NENG_BETUWE :Véhicule 25kV AC (Ligne de la Betuwe)
+
+# Metro
+STR_NAME_METRO  :Métro
+STR_TOOL_METRO  :Métro
+STR_MENU_METRO  :Métro
+STR_BUIL_METRO  :Métro
+STR_REPL_METRO  :Métro
+STR_NENG_METRO  :Véhicule métro
+
+# HSL [25kV AC]
+STR_NAME_HSL    :HSL [25kV AC]
+STR_TOOL_HSL    :HSL [25kV AC]
+STR_MENU_HSL    :HSL [25kV AC]
+STR_BUIL_HSL    :HSL [25kV AC]
+STR_REPL_HSL    :25kV AC (HSL)
+STR_NENG_HSL    :Véhicule 25kV AC (HSL)
+
+# Futuristic [Universal]
+STR_NAME_FUTURISTIC     :Futuriste [Universel]
+STR_TOOL_FUTURISTIC     :Futuriste [Universel]
+STR_MENU_FUTURISTIC     :Futuriste [Universel]
+STR_BUIL_FUTURISTIC     :Futuriste [Universel]
+STR_REPL_FUTURISTIC     :Électrique (futuriste)
+STR_NENG_FUTURISTIC     :Véhicule électrique (futuriste)

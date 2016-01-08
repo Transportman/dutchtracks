@@ -1,0 +1,34 @@
+##grflangid 0x07
+##plural 6
+##gender p n m f
+##case acc nom pre f abl m n dat p gen
+
+#Main grf title and description
+
+# Parameter descriptions
+# Rail speed
+
+# Track compatibility
+
+# Level Crossing Highspeed
+
+# Level Crossing Metro
+
+# Fences
+
+
+# Rail descriptions
+
+# Unelectrified Rail
+
+# YARD Rail
+
+# Electrified [1500V DC]
+
+# Betuweroute [25kV AC]
+
+# Metro
+
+# HSL [25kV AC]
+
+# Futuristic [Universal]

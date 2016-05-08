@@ -1,0 +1,94 @@
+##grflangid 0x55
+##plural 0
+##gender m f
+
+#Main grf title and description
+STR_GRF_NAME                    :{TITLE}
+STR_GRF_DESCRIPTION             :Dutch Tracks (Vías férreas holandesas) para OpenTTD{}(c)El equipo de Dutch Trackset{}Licencia: GPLv2 o superior.{}Consulta el archivo Léeme para más detalles.
+STR_GRF_LOAD_ORDER              :Cargar este NewGRF antes de cualquier otro NewGRF ferroviario para asegurar su funcionamiento (OpenTTD < r24272)
+
+# Parameter descriptions
+# Rail speed
+STR_PARAM_NAME_SPEED    :Límites de velocidad
+STR_PARAM_DESC_SPEED    :Activar o desactivar los límites de velocidad.
+
+# Track compatibility
+STR_PARAM_NAME_TRACK_COMPAT             :Compatibilidad de vías
+STR_PARAM_DESC_TRACK_COMPAT             :Cambiar entre distintos tipos de vías férreas compatibles. ¡Esta opción es para cuando no se haya cargado un set de trenes compatible! No afecta la potencia del tren aunque dependa del tipo de vías, pues eso solo el propio set de trenes lo controla.
+STR_PARAM_TRACK_COMPAT_DEF              :Sin electrificar, CC, CA, metro (predeterminado)
+STR_PARAM_TRACK_COMPAT_POW              :Sin electrificar, electrificadas, metro (no distinguir CA o CC)
+STR_PARAM_TRACK_COMPAT_FULL             :Sin electrificar, electrificadas (no distinguir CA, CC o metro)
+
+# Level Crossing Highspeed
+STR_PARAM_NAME_LEVCROSS_HIGH    :Pasos a nivel para HSL, Betuweroute, Futurista
+STR_PARAM_DESC_LEVCROSS_HIGH    :Activar o desactivar los pasos a nivel para vías férreas tipo HSL, Betuweroute o Futurista
+
+# Level Crossing Metro
+STR_PARAM_NAME_LEVCROSS_METRO   :Pasos a nivel para vías del metro
+STR_PARAM_DESC_LEVCROSS_METRO   :Activar o desactivar pasos a desnivel para las vías del metro
+
+# Fences
+STR_PARAM_NAME_FENCES                   :Vallas
+STR_PARAM_DESC_FENCES                   :Establecer qué tipo de vallas utilizar (vallas especiales, vallas de OpenTTD o sin vallas)
+STR_PARAM_FENCES_DUTCH                  :Vallas especiales (si están disponibles)
+STR_PARAM_FENCES_OTTD                   :Vallas de OpenTTD
+STR_PARAM_FENCES_NONE                   :Sin vallas
+
+
+# Rail descriptions
+
+# Unelectrified Rail
+STR_NAME_RAIL   :Vías sin electrificar
+STR_TOOL_RAIL   :Vías sin electrificar
+STR_MENU_RAIL   :Vías sin electrificar
+STR_BUIL_RAIL   :Vías sin electrificar
+STR_REPL_RAIL   :Sin electrificar
+STR_NENG_RAIL   :Motor sin electrificar
+
+# YARD Rail
+STR_NAME_YARD   :Patio/Estación [Universal]
+STR_TOOL_YARD   :Patio/Estación [Universal]
+STR_MENU_YARD   :Patio/Estación [Universal]
+STR_BUIL_YARD   :Patio/Estación [Universal]
+STR_REPL_YARD   :Eléctrica (Patio/Estación)
+STR_NENG_YARD   :Motor eléctrco (multisistema)
+
+# Electrified [1500V DC]
+STR_NAME_STANDARDRAIL   :Vías estándar [1500V CC]
+STR_TOOL_STANDARDRAIL   :Vías estándar [1500V CC]
+STR_MENU_STANDARDRAIL   :Vías estándar [1500V CC]
+STR_BUIL_STANDARDRAIL   :Vías estándar [1500V CC]
+STR_REPL_STANDARDRAIL   :1500V DC (Vías estándar)
+STR_NENG_STANDARDRAIL   :Motor 1500V CC
+
+# Betuweroute [25kV AC]
+STR_NAME_BETUWE :Betuweroute [25kV CA]
+STR_TOOL_BETUWE :Betuweroute [25kV CA]
+STR_MENU_BETUWE :Betuweroute [25kV CA]
+STR_BUIL_BETUWE :Betuweroute [25kV CA]
+STR_REPL_BETUWE :25kV CA (Betuweroute)
+STR_NENG_BETUWE :Motor 25kV CA (Betuweroute)
+
+# Metro
+STR_NAME_METRO  :Metro
+STR_TOOL_METRO  :Metro
+STR_MENU_METRO  :Metro
+STR_BUIL_METRO  :Metro
+STR_REPL_METRO  :Metro
+STR_NENG_METRO  :Motor de metro
+
+# HSL [25kV AC]
+STR_NAME_HSL    :HSL [25kV CA]
+STR_TOOL_HSL    :HSL [25kV CA]
+STR_MENU_HSL    :HSL [25kV CA]
+STR_BUIL_HSL    :HSL [25kV CA]
+STR_REPL_HSL    :25kV CA (HSL)
+STR_NENG_HSL    :Motor 25kV CA (HSL)
+
+# Futuristic [Universal]
+STR_NAME_FUTURISTIC     :Futurista [Universal]
+STR_TOOL_FUTURISTIC     :Futurista [Universal]
+STR_MENU_FUTURISTIC     :Futurista [Universal]
+STR_BUIL_FUTURISTIC     :Futurista [Universal]
+STR_REPL_FUTURISTIC     :Eléctricas (Futurista)
+STR_NENG_FUTURISTIC     :Motor eléctrico (Futurista)
